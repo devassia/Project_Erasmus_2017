@@ -1,0 +1,147 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+    transition: none;
+}
+a {
+ color: #fff;   
+}
+
+/* partie pour le fond */
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 480px;
+    background: url("../img/destination.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    overflow: hidden;
+}
+
+/*Pour pas que ce soit moche*/
+.header .container {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+
+/* Pour les onglets*/
+.header .container .toolbar .logo {
+    color: #fff;
+    padding: 25px 10px 10px 25px;
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+}
+
+
+
+.header .container .toolbar .logo > img:first-child {
+    display: inline-block;
+    height: 70px;
+}
+
+
+/* Header nav bar BEGIN*/
+.header .container .toolbar .nav_bar {
+    list-style-type: none;
+    padding: 0;
+    right: 0;
+    position: absolute;
+    margin: 50px;
+    display: inline-block;
+   
+}
+
+/*Positionnement des onglets*/
+.header .container .toolbar .nav_bar li {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+    text-align: center;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    padding-bottom: 5px;
+
+}
+
+
+/*Les onglets*/
+.header .container .toolbar .nav_bar li:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 0;
+    margin-bottom: 3px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background: #fff;
+}
+
+/*Pour le hover des onglets*/
+.header .container .toolbar .nav_bar li:hover, .header .container .toolbar .nav_bar li:focus {
+    box-shadow: inset 0 -3px 0 #fff;
+    -webkit-box-shadow: inset 0 -3px 0 #fff;
+}
+
+
+
+/* la phrase d 'annonce*/
+.header .container .announce_container {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Les 3 parties  */
+.main_content {
+    display: block;
+    padding-bottom: 65px;
+    width: 100%;
+    background: #f4f4f4;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*le textes des trois parties*/
+.main_content .box_container .box {
+    display: inline-block;
+    width: 300px;
+    padding: 10px; 
+    vertical-align: top;
+}
+
+/*Les images des trois parties*/
+.main_content .box_container .box .top .icon {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    width: 65px;
+}
+
+
+
+
