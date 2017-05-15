@@ -570,6 +570,452 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
 
+<<<<<<< HEAD
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.77
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Mar 28 2017 16:01:48 UTC
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.77.0
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 10
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            10.0
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_121-b13
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\conf\logging.properties
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\endorsed
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:23:19 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\temp
+mai 15, 2017 2:23:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+mai 15, 2017 2:23:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mai 15, 2017 2:23:20 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFOS: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+mai 15, 2017 2:23:20 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 2:23:20 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 2:23:20 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2500 ms
+mai 15, 2017 2:23:21 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mai 15, 2017 2:23:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.77
+mai 15, 2017 2:23:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs de l'application web
+mai 15, 2017 2:23:21 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:22 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [312] milliseconds.
+mai 15, 2017 2:23:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs has finished in 1 328 ms
+mai 15, 2017 2:23:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\era de l'application web
+mai 15, 2017 2:23:23 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\era has finished in 1 094 ms
+mai 15, 2017 2:23:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples de l'application web
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples has finished in 968 ms
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager de l'application web
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager has finished in 297 ms
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager de l'application web
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager has finished in 235 ms
+mai 15, 2017 2:23:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT de l'application web
+mai 15, 2017 2:23:25 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:23:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT has finished in 343 ms
+mai 15, 2017 2:23:25 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 2:23:25 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 2:23:25 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 4445 ms
+mai 15, 2017 2:28:41 PM org.apache.catalina.startup.Catalina stopServer
+GRAVE: Could not contact localhost:8005. Tomcat may not be running.
+mai 15, 2017 2:28:41 PM org.apache.catalina.startup.Catalina stopServer
+GRAVE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.77
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Mar 28 2017 16:01:48 UTC
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.77.0
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 10
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            10.0
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_121-b13
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\conf\logging.properties
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\endorsed
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 2:38:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\temp
+mai 15, 2017 2:38:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+mai 15, 2017 2:38:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mai 15, 2017 2:38:41 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFOS: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+mai 15, 2017 2:38:42 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 2:38:42 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 2:38:42 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2641 ms
+mai 15, 2017 2:38:42 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mai 15, 2017 2:38:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.77
+mai 15, 2017 2:38:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs de l'application web
+mai 15, 2017 2:38:43 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:43 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+mai 15, 2017 2:38:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs has finished in 1 250 ms
+mai 15, 2017 2:38:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\era de l'application web
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\era has finished in 1 669 ms
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples de l'application web
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples has finished in 654 ms
+mai 15, 2017 2:38:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager de l'application web
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager has finished in 250 ms
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager de l'application web
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager has finished in 219 ms
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT de l'application web
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT has finished in 172 ms
+mai 15, 2017 2:38:46 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 2:38:46 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 2:38:46 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 4405 ms
+mai 15, 2017 2:51:45 PM org.postgresql.Driver connect
+GRAVE: Error in url: jdbc:postgresql://localhost:8080
+mai 15, 2017 2:57:27 PM org.apache.catalina.startup.HostConfig undeploy
+INFOS: Repli (undeploy) de l'application web ayant pour chemin de contexte /examples
+mai 15, 2017 2:57:28 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+AVERTISSEMENT: Failed to open JAR [null]
+java.io.FileNotFoundException: C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar (Le chemin d’accès spécifié est introuvable)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3108)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3397)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3140)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1373)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1861)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at websocket.drawboard.DrawboardEndpoint.<clinit>(DrawboardEndpoint.java:37)
+	at websocket.drawboard.DrawboardContextListener.contextDestroyed(DrawboardContextListener.java:32)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:57:28 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+AVERTISSEMENT: Failed to open JAR [null]
+java.io.FileNotFoundException: C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar (Le chemin d’accès spécifié est introuvable)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3108)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3397)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1458)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1686)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2223)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2123)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:663)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5872)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:57:28 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+AVERTISSEMENT: Failed to open JAR [null]
+java.io.FileNotFoundException: C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\examples\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar (Le chemin d’accès spécifié est introuvable)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3108)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3397)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3140)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1373)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1861)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.sql.DriverManager.isDriverAllowed(DriverManager.java:556)
+	at java.sql.DriverManager.isDriverAllowed(DriverManager.java:548)
+	at java.sql.DriverManager.getDrivers(DriverManager.java:446)
+	at org.apache.catalina.loader.JdbcLeakPrevention.clearJdbcDriverRegistrations(JdbcLeakPrevention.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2223)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2123)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:663)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5872)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.77
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Mar 28 2017 16:01:48 UTC
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.77.0
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 10
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            10.0
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_121-b13
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\conf\logging.properties
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\endorsed
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat
+mai 15, 2017 3:02:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\temp
+mai 15, 2017 3:02:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+mai 15, 2017 3:02:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mai 15, 2017 3:02:32 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFOS: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+mai 15, 2017 3:02:32 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 3:02:32 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 3:02:32 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2039 ms
+mai 15, 2017 3:02:32 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mai 15, 2017 3:02:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.77
+mai 15, 2017 3:02:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs de l'application web
+mai 15, 2017 3:02:33 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:02:33 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+mai 15, 2017 3:02:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\docs has finished in 1 141 ms
+mai 15, 2017 3:02:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\erasmus de l'application web
+mai 15, 2017 3:02:34 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:02:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\erasmus has finished in 906 ms
+mai 15, 2017 3:02:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager de l'application web
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\host-manager has finished in 219 ms
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager de l'application web
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\manager has finished in 187 ms
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT de l'application web
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\webapps\ROOT has finished in 156 ms
+mai 15, 2017 3:02:35 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-apr-8080"]
+mai 15, 2017 3:02:35 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-apr-8009"]
+mai 15, 2017 3:02:35 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2737 ms
+mai 15, 2017 3:02:58 PM org.postgresql.Driver connect
+GRAVE: Error in url: jdbc:postgresql://localhost:8080
+mai 15, 2017 3:03:37 PM org.apache.catalina.startup.Catalina stopServer
+GRAVE: Could not contact localhost:8005. Tomcat may not be running.
+mai 15, 2017 3:03:37 PM org.apache.catalina.startup.Catalina stopServer
+GRAVE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
+=======
 mai 15, 2017 2:08:44 PM org.apache.catalina.startup.VersionLoggerListener log
 INFOS: Server version:        Apache Tomcat/7.0.77
 mai 15, 2017 2:08:44 PM org.apache.catalina.startup.VersionLoggerListener log
@@ -666,3 +1112,4 @@ mai 15, 2017 2:08:47 PM org.apache.coyote.AbstractProtocol start
 INFOS: Starting ProtocolHandler ["ajp-apr-8009"]
 mai 15, 2017 2:08:47 PM org.apache.catalina.startup.Catalina start
 INFOS: Server startup in 2310 ms
+>>>>>>> f0bfda86179d5f326720460eeae50dcdae45bf5a

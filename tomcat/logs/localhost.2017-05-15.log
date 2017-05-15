@@ -736,6 +736,25 @@ Stacktrace:
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+<<<<<<< HEAD
+mai 15, 2017 2:23:23 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:23:23 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:23:23 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@8245235')
+mai 15, 2017 2:23:24 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:23:24 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:23:24 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@60cd9672')
+mai 15, 2017 2:23:42 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@21127bb0')
+mai 15, 2017 2:23:42 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@6038e63c')
+mai 15, 2017 2:23:43 PM org.apache.catalina.core.StandardWrapperValve invoke
+=======
 mai 15, 2017 2:08:46 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextInitialized()
 mai 15, 2017 2:08:46 PM org.apache.catalina.core.ApplicationContext log
@@ -753,6 +772,7 @@ INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplication
 mai 15, 2017 2:09:10 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@24eae69c')
 mai 15, 2017 2:09:11 PM org.apache.catalina.core.StandardWrapperValve invoke
+>>>>>>> f0bfda86179d5f326720460eeae50dcdae45bf5a
 GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
 
 Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
@@ -962,3 +982,866 @@ Stacktrace:
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+<<<<<<< HEAD
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@34e317a')
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:38:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3cae82ea')
+mai 15, 2017 2:38:53 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@7ff49d50')
+mai 15, 2017 2:38:54 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@4dcf1f7e')
+mai 15, 2017 2:38:55 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Illegal modifier for the local class testonbilly; only abstract or final is permitted
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+
+
+Une erreur s'est produite à la ligne: 10 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+The method main cannot be declared static; static methods can only be declared in a static or top level type
+7: 
+8: <%
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+13: }
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+system.out cannot be resolved to a type
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+13: }
+14: }
+15: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Illegal modifier for the local class testonbilly; only abstract or final is permitted
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+
+
+Une erreur s'est produite à la ligne: 10 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+The method main cannot be declared static; static methods can only be declared in a static or top level type
+7: 
+8: <%
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+13: }
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+system.out cannot be resolved to a type
+9: public class testonbilly {
+10: public static void main(String[] args) {
+11: 	int jsp=0;
+12: 	system.out.println("on va voir");
+13: }
+14: }
+15: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:39:57 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 10 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Illegal modifier for the local class select; only abstract or final is permitted
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: public class select extends HttpServlet
+11: {
+12: 	public void service( HttpServletRequest req, HttpServletResponse res ) 
+13: 			throws ServletException, IOException
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 10 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Illegal modifier for the local class select; only abstract or final is permitted
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: public class select extends HttpServlet
+11: {
+12: 	public void service( HttpServletRequest req, HttpServletResponse res ) 
+13: 			throws ServletException, IOException
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:42:35 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: 
+11: 		try{
+12: 			Class.forName("org.postgresql.Driver");  
+
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "EnumBody" to complete BlockStatement
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: 
+11: 		try{
+12: 			Class.forName("org.postgresql.Driver");  
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: 
+11: 		try{
+12: 			Class.forName("org.postgresql.Driver");  
+
+
+Une erreur s'est produite à la ligne: 9 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "EnumBody" to complete BlockStatement
+6: <%@ page import="java.sql.*" %>
+7: 
+8: <%
+9: @WebServlet("/servlet/Lister")
+10: 
+11: 		try{
+12: 			Class.forName("org.postgresql.Driver");  
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:43:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+
+
+Une erreur s'est produite à la ligne: 18 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+20: 			out.println("<!doctype html>");
+21: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 39 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+36: 		}
+37: 		finally {
+38: 			try {
+39: 				con.close();
+40: 			} catch (Exception e2) {
+41: 				// TODO: handle exception
+42: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+13: 			String mdp = "root";
+14: 			
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+
+
+Une erreur s'est produite à la ligne: 18 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+15: 			con = DriverManager.getConnection(url,nom,mdp);
+16: 			stmt = con.createStatement();
+17: 			String query = "select * from users;";
+18: 			ResultSet rs = stmt.executeQuery(query);
+19: 			
+20: 			out.println("<!doctype html>");
+21: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 39 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+36: 		}
+37: 		finally {
+38: 			try {
+39: 				con.close();
+40: 			} catch (Exception e2) {
+41: 				// TODO: handle exception
+42: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:44:48 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved to a variable
+11: 			String url = "jdbc:postgresql://localhost:8080";
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+19: 			out.println("<!doctype html>");
+20: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 38 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+35: 		}
+36: 		finally {
+37: 			try {
+38: 				con.close();
+39: 			} catch (Exception e2) {
+40: 				// TODO: handle exception
+41: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved to a variable
+11: 			String url = "jdbc:postgresql://localhost:8080";
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+14: 			con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+19: 			out.println("<!doctype html>");
+20: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 38 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+35: 		}
+36: 		finally {
+37: 			try {
+38: 				con.close();
+39: 			} catch (Exception e2) {
+40: 				// TODO: handle exception
+41: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:46:14 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			Connection con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+14: 			Connection con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+19: 			out.println("<!doctype html>");
+20: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 38 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+35: 		}
+36: 		finally {
+37: 			try {
+38: 				con.close();
+39: 			} catch (Exception e2) {
+40: 				// TODO: handle exception
+41: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+12: 			String nom = "postgres";
+13: 			String mdp = "root";
+14: 			Connection con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+14: 			Connection con = DriverManager.getConnection(url,nom,mdp);
+15: 			stmt = con.createStatement();
+16: 			String query = "select * from users;";
+17: 			ResultSet rs = stmt.executeQuery(query);
+18: 			
+19: 			out.println("<!doctype html>");
+20: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 38 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+35: 		}
+36: 		finally {
+37: 			try {
+38: 				con.close();
+39: 			} catch (Exception e2) {
+40: 				// TODO: handle exception
+41: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:48:57 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+10: 			Class.forName("org.postgresql.Driver");  
+11: 			String url = "jdbc:postgresql://localhost:8080";
+12: 			Connection con=DriverManager.getConnection(url,"postgres","root");
+13: 			stmt = con.createStatement();
+14: 			String query = "select * from users;";
+15: 			ResultSet rs = stmt.executeQuery(query);
+16: 			
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+12: 			Connection con=DriverManager.getConnection(url,"postgres","root");
+13: 			stmt = con.createStatement();
+14: 			String query = "select * from users;";
+15: 			ResultSet rs = stmt.executeQuery(query);
+16: 			
+17: 			out.println("<!doctype html>");
+18: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 36 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+33: 		}
+34: 		finally {
+35: 			try {
+36: 				con.close();
+37: 			} catch (Exception e2) {
+38: 				// TODO: handle exception
+39: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved to a variable
+10: 			Class.forName("org.postgresql.Driver");  
+11: 			String url = "jdbc:postgresql://localhost:8080";
+12: 			Connection con=DriverManager.getConnection(url,"postgres","root");
+13: 			stmt = con.createStatement();
+14: 			String query = "select * from users;";
+15: 			ResultSet rs = stmt.executeQuery(query);
+16: 			
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+stmt cannot be resolved
+12: 			Connection con=DriverManager.getConnection(url,"postgres","root");
+13: 			stmt = con.createStatement();
+14: 			String query = "select * from users;";
+15: 			ResultSet rs = stmt.executeQuery(query);
+16: 			
+17: 			out.println("<!doctype html>");
+18: 			out.println("<head><title>Table utilisateurs </title></head><body>");
+
+
+Une erreur s'est produite à la ligne: 36 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+33: 		}
+34: 		finally {
+35: 			try {
+36: 				con.close();
+37: 			} catch (Exception e2) {
+38: 				// TODO: handle exception
+39: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:50:08 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 36 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+33: 		}
+34: 		finally {
+35: 			try {
+36: 				con.close();
+37: 			} catch (Exception e2) {
+38: 				// TODO: handle exception
+39: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 36 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+con cannot be resolved
+33: 		}
+34: 		finally {
+35: 			try {
+36: 				con.close();
+37: 			} catch (Exception e2) {
+38: 				// TODO: handle exception
+39: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 15, 2017 2:51:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('2A250CD5DA14F082B63D97297EDA172F')
+mai 15, 2017 2:57:28 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 15, 2017 2:57:28 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 15, 2017 3:02:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 3:02:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 3:02:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1bdf1953')
+mai 15, 2017 3:02:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@49b231dc')
+mai 15, 2017 3:02:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@27a0c0e6')
+mai 15, 2017 3:02:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('2A83AA3CF3A372E77157FE4D79387F29')
+=======
+>>>>>>> f0bfda86179d5f326720460eeae50dcdae45bf5a

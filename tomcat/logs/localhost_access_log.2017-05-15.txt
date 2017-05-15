@@ -47,6 +47,30 @@
 127.0.0.1 - - [15/May/2017:13:44:45 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4877
 127.0.0.1 - - [15/May/2017:13:44:51 +0200] "GET /era HTTP/1.1" 302 -
 127.0.0.1 - - [15/May/2017:13:49:17 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4877
+<<<<<<< HEAD
+127.0.0.1 - - [15/May/2017:14:23:43 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4877
+127.0.0.1 - - [15/May/2017:14:38:55 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 3299
+127.0.0.1 - - [15/May/2017:14:39:57 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 2658
+127.0.0.1 - - [15/May/2017:14:42:35 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 2956
+127.0.0.1 - - [15/May/2017:14:43:06 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4179
+127.0.0.1 - - [15/May/2017:14:44:48 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4305
+127.0.0.1 - - [15/May/2017:14:46:14 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 3445
+127.0.0.1 - - [15/May/2017:14:48:57 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 3546
+127.0.0.1 - - [15/May/2017:14:50:08 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 2505
+127.0.0.1 - - [15/May/2017:14:51:45 +0200] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 200 98
+127.0.0.1 - - [15/May/2017:15:02:41 +0200] "GET / HTTP/1.1" 200 11418
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus HTTP/1.1" 302 -
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/ HTTP/1.1" 200 2477
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/css/ui.css HTTP/1.1" 200 2939
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/img/smile.jpg HTTP/1.1" 200 6075
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/img/bulle.png HTTP/1.1" 200 3012
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/img/erasmus.jpg HTTP/1.1" 200 344667
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/img/maison.png HTTP/1.1" 200 1703
+127.0.0.1 - - [15/May/2017:15:02:45 +0200] "GET /erasmus/img/destination.jpg HTTP/1.1" 200 347286
+127.0.0.1 - - [15/May/2017:15:02:50 +0200] "GET /erasmus/jsp HTTP/1.1" 302 -
+127.0.0.1 - - [15/May/2017:15:02:50 +0200] "GET /erasmus/jsp/ HTTP/1.1" 404 986
+127.0.0.1 - - [15/May/2017:15:02:58 +0200] "GET /erasmus/jsp/toto.jsp HTTP/1.1" 200 98
+=======
 127.0.0.1 - - [15/May/2017:14:08:59 +0300] "GET / HTTP/1.1" 200 11418
 127.0.0.1 - - [15/May/2017:14:08:59 +0300] "GET /tomcat.png HTTP/1.1" 200 5103
 127.0.0.1 - - [15/May/2017:14:08:59 +0300] "GET /tomcat.css HTTP/1.1" 200 5931
@@ -57,3 +81,4 @@
 127.0.0.1 - - [15/May/2017:14:08:59 +0300] "GET /bg-nav.png HTTP/1.1" 200 1401
 127.0.0.1 - - [15/May/2017:14:09:11 +0300] "GET /era/jsp/jsp2/el/toto.jsp HTTP/1.1" 500 4877
 139.162.111.98 - - [15/May/2017:14:23:45 +0300] "GET / HTTP/1.1" 200 11418
+>>>>>>> f0bfda86179d5f326720460eeae50dcdae45bf5a
