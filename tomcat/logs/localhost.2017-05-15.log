@@ -736,3 +736,229 @@ Stacktrace:
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+mai 15, 2017 2:08:46 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:08:46 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:08:46 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7cdf8ece')
+mai 15, 2017 2:08:47 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 15, 2017 2:08:47 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 15, 2017 2:08:47 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@222dd95f')
+mai 15, 2017 2:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3df73864')
+mai 15, 2017 2:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@24eae69c')
+mai 15, 2017 2:09:11 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/era] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token "import", delete this token
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+java.io.javax.servlet.javax.servlet.http.javax.servlet.annotation cannot be resolved to a type
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 4 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+
+
+Une erreur s'est produite à la ligne: 5 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+
+
+Une erreur s'est produite à la ligne: 6 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token(s), misplaced construct(s)
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+
+
+Une erreur s'est produite à la ligne: 7 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token "import", delete this token
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+10: @WebServlet("/servlet/Lister")
+
+
+Une erreur s'est produite à la ligne: 7 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "new ClassType ( )" to complete Expression
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+10: @WebServlet("/servlet/Lister")
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token "import", delete this token
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+java.io.javax.servlet.javax.servlet.http.javax.servlet.annotation cannot be resolved to a type
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 3 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+
+
+Une erreur s'est produite à la ligne: 4 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+1: <h1>salut toi</h1>
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+
+
+Une erreur s'est produite à la ligne: 5 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on tokens, delete these tokens
+2: <%
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+
+
+Une erreur s'est produite à la ligne: 6 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token(s), misplaced construct(s)
+3: import java.io.*;
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+
+
+Une erreur s'est produite à la ligne: 7 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error on token "import", delete this token
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+10: @WebServlet("/servlet/Lister")
+
+
+Une erreur s'est produite à la ligne: 7 dans le fichier jsp: /jsp/jsp2/el/toto.jsp
+Syntax error, insert "new ClassType ( )" to complete Expression
+4: import javax.servlet.*;
+5: import javax.servlet.http.*;
+6: import javax.servlet.annotation.WebServlet;
+7: import java.sql.*;
+8: 
+9: 
+10: @WebServlet("/servlet/Lister")
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

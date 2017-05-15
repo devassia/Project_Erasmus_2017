@@ -1,60 +1,70 @@
-DROP TABLE if exist Client, University, Accomodation, Job, City, Own, Teach, Offer;
-DROP TYPE if exist role;
+DROP TABLE IF EXISTS Client, University, Accomodation, Job, City, Own, Teach, Offer;
+DROP TYPE IF EXISTS role;
+
 CREATE TYPE role as ENUM ('admin', 'student', 'teacher', 'Advertiser');
 
+CREATE TABLE City(
+IDcity text NOT NULL PRIMARY KEY,
+Country text
+);
+
 CREATE TABLE Client(
-ID.cli int NOT NULL PRIMARY KEY,
+IDcli int NOT NULL PRIMARY KEY,
 LastName text,
 FirstName text,
-City text FOREIGN KEY REFERENCES City(ID.city),
+City text,
 Email text,
 Role role,
 passwd varchar(15),
+CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
 
 CREATE TABLE University(
-ID.univ int NOT NULL PRIMARY KEY,
+IDuniv int NOT NULL PRIMARY KEY,
 Name text,
-City text FOREIGN KEY REFERENCES City(ID.city),
+City text,
 Address text,
+CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
 CREATE TABLE Accomodation(
-ID.acc int NOT NULL PRIMARY KEY,
+IDacc int NOT NULL PRIMARY KEY,
 City text,
 Address text,
-City text FOREIGN KEY REFERENCES City(ID.city),
 Price int,
 Type text,
 NbRoom int,
-Picture ???,
+Pictures text,
 Availability date,
+CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
 CREATE TABLE Job(
-ID.job int NOT NULL PRIMARY KEY,
+IDjob int NOT NULL PRIMARY KEY,
 Company text,
-City text FOREIGN KEY REFERENCES City(ID.city),
-Description text
-);
-
-CREATE TABLE City(
-ID.city text,
-Country text,
+City text,
+Description text,
+CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
 CREATE TABLE Own(
-ID.cli FOREIGN KEY REFERENCES Client(ID.cli),
-ID.acc FOREIGN KEY REFERENCES Accomodation(ID.acc),
+IDcli int,
+IDacc int,
+CONSTRAINT FK_Client FOREIGN KEY (IDcli) REFERENCES Client(IDcli),
+CONSTRAINT FK_Accomodation FOREIGN KEY (IDacc) REFERENCES Accomodation(IDacc)
 );
 
 CREATE TABLE Teach(
-ID.cli FOREIGN KEY REFERENCES Client(ID.cli),
-ID.univ FOREIGN KEY REFERENCES University(ID.univ),
+IDcli int,
+IDuniv int,
+CONSTRAINT FK_Client FOREIGN KEY (IDcli) REFERENCES Client(IDcli),
+CONSTRAINT FK_Uniersity FOREIGN KEY (IDuniv) REFERENCES University(IDuniv)
 );
 
 CREATE TABLE Offer(
-ID.cli FOREIGN KEY REFERENCES Client(ID.cli),
-ID.job FOREIGN KEY REFERENCES Job(ID.job),
+IDcli int,
+IDjob int,
+CONSTRAINT FK_Client FOREIGN KEY (IDcli) REFERENCES Client(IDcli),
+CONSTRAINT FK_Job FOREIGN KEY (IDjob) REFERENCES Job(IDjob)
 );
