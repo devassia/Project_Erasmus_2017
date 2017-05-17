@@ -1,0 +1,107 @@
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ]  { -help | start | stop }
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.77
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Mar 28 2017 16:01:48 UTC
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.77.0
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 10
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            10.0
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_121-b13
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat/conf/logging.properties
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat/endorsed
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat
+mai 15, 2017 3:19:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:/Users/alexandre devassine/Desktop/Vilnius/Projet/Project_Erasmus_2017/tomcat/temp
+mai 15, 2017 3:19:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\alexandre devassine\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alexandre devassine\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\9.6\bin;C:\Users\alexandre devassine\Desktop\Vilnius\Projet\tomcat\bin;C:\Users\alexandre devassine\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+mai 15, 2017 3:19:35 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mai 15, 2017 3:19:35 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mai 15, 2017 3:19:35 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2147 ms
+mai 15, 2017 3:19:35 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mai 15, 2017 3:19:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.77
+mai 15, 2017 3:19:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\docs de l'application web
+mai 15, 2017 3:19:35 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:19:36 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+mai 15, 2017 3:19:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\docs has finished in 922 ms
+mai 15, 2017 3:19:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\erasmus de l'application web
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\erasmus has finished in 2 039 ms
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\host-manager de l'application web
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\host-manager has finished in 313 ms
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\manager de l'application web
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\manager has finished in 203 ms
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\ROOT de l'application web
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.TldConfig execute
+INFOS: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\webapps\ROOT has finished in 156 ms
+mai 15, 2017 3:19:38 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mai 15, 2017 3:19:38 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mai 15, 2017 3:19:38 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 3708 ms
+mai 15, 2017 3:22:09 PM org.postgresql.Driver connect
+GRAVE: Error in url: jdbc:postgresql://localhost:8080
+mai 15, 2017 3:23:34 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mai 15, 2017 3:23:34 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+mai 15, 2017 3:23:34 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+mai 15, 2017 3:23:34 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+mai 15, 2017 3:23:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/erasmus] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+mai 15, 2017 3:23:35 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+mai 15, 2017 3:23:35 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+mai 15, 2017 3:23:35 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+mai 15, 2017 3:23:35 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
