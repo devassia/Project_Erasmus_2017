@@ -3,20 +3,19 @@ DROP TYPE IF EXISTS role;
 
 CREATE TYPE role as ENUM ('admin', 'student', 'teacher', 'Advertiser');
 
-CREATE TABLE City(
+CREATE TABLE city(
 IDcity text NOT NULL PRIMARY KEY,
 Country text
 );
 
-CREATE TABLE Client(
-IDcli int NOT NULL PRIMARY KEY,
-LastName text,
-FirstName text,
-City text,
-Email text,
-Role role,
-passwd varchar(15),
-CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
+CREATE TABLE client(
+lastName text,
+firstName text,
+country text,
+email text,
+passwd text,
+CONSTRAINT PK_client PRIMARY KEY (email),
+CONSTRAINT FK_city FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
 
@@ -28,7 +27,7 @@ Address text,
 CONSTRAINT FK_City FOREIGN KEY (City) REFERENCES City(IDcity)
 );
 
-CREATE TABLE Accomodation(
+CREATE TABLE accomodation(
 IDacc int NOT NULL PRIMARY KEY,
 City text,
 Address text,

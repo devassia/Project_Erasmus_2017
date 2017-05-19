@@ -22,14 +22,14 @@
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Email:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      <input type="email" class="form-control" id="email"  name="mail" placeholder="Enter your email">
     </div>
   </div>
 
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Password:</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="pwd" placeholder="Enter your password">
+      <input type="password" class="form-control" id="pwd" name="password" placeholder="Enter your password">
     </div>
   </div>
 
@@ -38,7 +38,6 @@
       <button type="submit" class="btn btn-default">Submit</button>
     </div>
   </div>
-
 </form> 
 
 
@@ -47,17 +46,38 @@
 
      <form class="form-horizontal" action="create.jsp">
 
+<div class="form-group">
+    <label class="control-label col-sm-2" for="text">LastName:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="LName"  name="lastname" placeholder="Enter your Last Name">
+    </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="text">FirstName:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="FName"  name="firstname" placeholder="Enter your First Name">
+    </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="text">Country:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="Country"  name="country" placeholder="Enter your Country">
+    </div>
+  </div>
+
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Email:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      <input type="email" class="form-control" id="email"  name="mail" placeholder="Enter your email">
     </div>
   </div>
 
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Password:</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="pwd" name="test" placeholder="Enter your password">
+      <input type="password" class="form-control" id="pwd" name="password" placeholder="Enter your password">
     </div>
   </div>
 

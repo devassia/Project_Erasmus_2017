@@ -1,4 +1,3 @@
-<h1>salut toi</h1> 
 <%@ page import="java.io.*" %>
 <%@ page import="javax.servlet.*" %>
 <%@ page import="javax.servlet.http.*" %>
@@ -10,27 +9,31 @@
 			Class.forName("org.postgresql.Driver");  
 			String url = "jdbc:postgresql://localhost/postgres";
 			Connection con=DriverManager.getConnection(url,"postgres","root");
+
+			String mail = request.getParameter("mail");
+			String password = request.getParameter("password");
+
 			Statement stmt = con.createStatement();
-			String query = "select * from users;";
+
+			String query = "select passwd from client where email='"+mail+"';";
 			ResultSet rs = stmt.executeQuery(query);
-			
-			out.println("<!doctype html>");
-			out.println("<head><title>Table utilisateurs </title></head><body>");
-			System.out.println("Liste des utilisateurs:");
-			
-			while(rs.next()){
-				String n = rs.getString(1); // nom
-				String p = rs.getString(2); // prenom
-				
-				System.out.println(n + " " + p);
-			
-			}
-			con.close();
-			out.println("testons l'ami");
-			out.println("</body></html> ");
+
+				while (rs.next()) 
+				{
+					 String mdp = rs.getString(1); // mdp
+					if(password.equals(mdp)){
+					response.sendRedirect("../erasmus?mail="+mail);
+					}
+					else {
+					out.println("<h3>Bad password</h3>");
+					}
+				}
+		con.close();
+
 		}
 		catch(Exception e){
-			out.println(e.getMessage());
+			//out.println(e.getMessage());
 		}
 %>
-<h1>restest</h1>
+<a href="connection.jsp">Back to login</a>
+
