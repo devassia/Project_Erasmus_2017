@@ -141,11 +141,11 @@ a {
     width: 65px;
 }
 
+/* couleur du texte*/
 strong{
     color: rgb(131, 166, 151);
 }
-
-
+/*mettr en gros les titres*/
 #titre{
     font-size: 22px;
 }
