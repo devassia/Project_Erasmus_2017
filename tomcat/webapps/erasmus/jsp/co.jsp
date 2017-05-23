@@ -22,7 +22,7 @@
 				{
 					 String mdp = rs.getString(1); // mdp
 					if(password.equals(mdp)){
-					response.sendRedirect("../erasmus?mail="+mail);
+					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
 					}
 					else {
 					out.println("<h3>Bad password</h3>");
