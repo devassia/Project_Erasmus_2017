@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-      <!--Content-type-->
-      <meta name='Content-Type' content='text/html'/>
-       <meta charset='utf-8'/>
-         
-          <!--css style-->
-          <!-- pour les mettre l'un a cote de l'autre-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/ui.css"/>
+<head>
 
-        <title>Erasmus </title>
- 
-    </head>
-    <body>
+
+
+
+  <!--Content-type-->
+  <meta name='Content-Type' content='text/html'/>
+  <meta charset='utf-8'/>
+
+  <!--css style-->
+  <!-- pour les mettre l'un a cote de l'autre-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ui.css"/>
+
+  <title>Erasmus </title>
+
+</head>
+<body>
 
     <!--Header-->
     <div class="header">
@@ -21,141 +25,158 @@
         <div class="container">
             <!--Toolbar-->
             <div class="toolbar">
-                <!--Logo-->
-                <div class="logo">
-                    <img src="img/erasmus.png"/>
-                </div>
+               
                 <!--Navbar-->
-                <ul class="nav_bar">
-                <li><a href="index.html">EraStud</a></li>
-                <li><a href="countries.html">Countries</a></li>
-                <li><a href="city.html">Cities</a></li>
-                <li><a href="jsp/connection.jsp">Connection</a></li> 
+                <div class="navbar">
+                   <ul>
+                   <li><a class="logo"  href="index.html"> <img src="img/erasmus.png"/></a></li>
+                    <li><a href="cities.html">Cities</a>
+                        <ul>
+                            <li><a href="cities.html">Find your City</a></li>
+                            <li><a href="#">City Ranking</a></li>
+                            <li><a href="#">Experience Sharing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Universities</a>
+                        <ul>
+                            <li><a href="#">Find your University</a></li>
+                            <li><a href="#">University Ranking</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Accomodation</a></li>
+                    <li><a href="#">Student</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">About EraStud</a></li>
+                    <li><a href="#">Sign In/Up</a></li>
+
+
+
                 </ul>
             </div>
-            <!--Annonce-->
-            <div class="announce_container">
-                <div class="anim">
-                    <div class="title">WELCOME ERASMUS STUDENT !</div>
-                </div>
+        </div>
+        <!--Annonce-->
+        <div class="announce_container">
+            <div class="anim">
+                <div class="title">WELCOME ERASMUS STUDENT !</div>
             </div>
         </div>
     </div>
+</div>
 <!-- mon truc commence là -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong><br>Cities</strong>
-                    </div>
-                    <p>
-                        <br> You can find the city in which you will live in Erasmus as well as opinions of the party people out there.<br><br>
-                        <strong>City ranking Erasmus </strong><br><br>
-                        <strong>Share your experience </strong><br>
-                    </p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong><br>Cities</strong>
                 </div>
-                <div class="col-md-6">
-                    <br><br><img src="img/city.JPG" width="200" height="150">
-                </div>
+                <p>
+                    <br> You can find the city in which you will live in Erasmus as well as opinions of the party people out there.<br><br>
+                    <strong>City ranking Erasmus </strong><br><br>
+                    <strong>Share your experience </strong><br>
+                </p>
             </div>
-            
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong><br>Universities</strong>
-                    </div>
-                    <p>
-                        <br>You can find here the university you are going to study, you will also find a list of professors active in Erasmus.<br><br>
-                        <strong>University ranking Erasmus</strong><br><br>
-                        <strong>List of professors</strong>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <br><br><img src="img/university.jpg" width="200" height="150">
-                </div>
+            <div class="col-md-6">
+                <br><br><img src="img/city.JPG" width="200" height="150">
             </div>
-            <div class="col-md-1"></div>
-        </div>
-        
-        <div class="row">
-            <br>
-        </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong>Accomodation</strong>
-                    </div>
-                    <p>
-                        <br> Find accommodation in the city of your choice, according to your criteria and your price.<br><br>
-                        <strong>List of accommodations</strong><br><br>
-                        <strong>Add an accomodation </strong>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <br><img src="img/accomodation.jpeg" width="200" height="150">
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong>Students</strong>
-                    </div>
-                    <p>
-                        <br>Here you can talk and share your experiences with other Erasmus students.<br><br>
-                        <strong>Lite of all registered students</strong><br><br>
-                        <strong>Our chat</strong>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <br><img src="img/students.jpg" width="200" height="150">
-                </div>
-            </div>
-            <div class="col-md-1"></div>
         </div>
 
-        <div class="row">
-            <br>
-        </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong>Jobs</strong>
-                    </div>
-                    <p>
-                        <br> Find the right job. Discover all the student jobs available in Erasmus.<br><br>
-                        <strong>List of jobs</strong><br><br>
-                        <strong>Add job offer</strong><br>
-                    </p>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong><br>Universities</strong>
                 </div>
-                <div class="col-md-6">
-                    <br><img src="img/jobs.jpg" width="200" height="150">
-                </div>
+                <p>
+                    <br>You can find here the university you are going to study, you will also find a list of professors active in Erasmus.<br><br>
+                    <strong>University ranking Erasmus</strong><br><br>
+                    <strong>List of professors</strong>
+                </p>
             </div>
-            <div class="col-md-5">
-                <div class="col-md-6">
-                    <div id="titre">
-                        <strong>About EraStud</strong>
-                    </div>
-                    <p>
-                        <br>EraStud is a community site for students leaving in Erasmus and thus helping<br><br>
-                        <strong>Contact us</strong><br><br>
-                        <strong>F.A.Q</strong>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <br><img src="img/aboutus.jpg" width="200" height="150">
-                </div>
+            <div class="col-md-6">
+                <br><br><img src="img/university.jpg" width="200" height="150">
             </div>
-            <div class="col-md-1"></div>
         </div>
-        <br><br><br><br>
+        <div class="col-md-1"></div>
     </div>
+
+    <div class="row">
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong>Accomodation</strong>
+                </div>
+                <p>
+                    <br> Find accommodation in the city of your choice, according to your criteria and your price.<br><br>
+                    <strong>List of accommodations</strong><br><br>
+                    <strong>Add an accomodation </strong>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <br><img src="img/accomodation.jpeg" width="200" height="150">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong>Students</strong>
+                </div>
+                <p>
+                    <br>Here you can talk and share your experiences with other Erasmus students.<br><br>
+                    <strong>Lite of all registered students</strong><br><br>
+                    <strong>Our chat</strong>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <br><img src="img/students.jpg" width="200" height="150">
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div class="row">
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong>Jobs</strong>
+                </div>
+                <p>
+                    <br> Find the right job. Discover all the student jobs available in Erasmus.<br><br>
+                    <strong>List of jobs</strong><br><br>
+                    <strong>Add job offer</strong><br>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <br><img src="img/jobs.jpg" width="200" height="150">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="titre">
+                    <strong>About EraStud</strong>
+                </div>
+                <p>
+                    <br>EraStud is a community site for students leaving in Erasmus and thus helping<br><br>
+                    <strong>Contact us</strong><br><br>
+                    <strong>F.A.Q</strong>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <br><img src="img/aboutus.jpg" width="200" height="150">
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <br><br><br><br>
+</div>
 
 </body>
 </html>

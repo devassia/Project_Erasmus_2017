@@ -40,7 +40,6 @@ a {
 /* Pour les onglets*/
 .header .container .toolbar .logo {
     color: #fff;
-    padding: 25px 10px 10px 25px;
     display: inline-block;
     position: relative;
     font-size: 18px;
@@ -50,7 +49,8 @@ a {
 
 .header .container .toolbar .logo > img:first-child {
     display: inline-block;
-    height: 70px;
+    height: 50px;
+    width: 120px;
 }
 
 /* Header nav bar BEGIN*/
@@ -149,3 +149,80 @@ strong{
 #titre{
     font-size: 22px;
 }
+
+
+.navbar ul {
+            list-style: none;
+            background-color: #f3f3f3;
+            padding: 0;
+            margin: 0; 
+            border-bottom: 5px solid #739687;
+        }
+
+        .navbar li {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.1em;
+            line-height: 20px;
+            text-align: center;
+            position:relative;
+        }
+
+
+        .navbar a {
+            text-decoration: none;
+            color: #739687;
+            display: block;
+            padding-left: 0px;  
+        }
+
+        .navbar a:hover {
+            background-color: silver;
+        }
+
+        .navbar a.active {
+            background-color: #aaa;
+            color: #fff;
+            cursor: pointer; 
+        }
+
+        .navbar li li {
+            font-size: 0.8em;
+        }
+
+        .navbar li {
+            width: 150px;
+            border-bottom: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            display: inline-block;
+            margin-right: -4px;
+            padding: 0px;
+        }
+
+        .navbar a {
+            border-bottom: none;
+        }
+
+        .navbar > ul > li {
+            text-align: center;
+        }
+        
+        .navbar > ul > li > a {
+        padding-left: 0;
+        }
+
+        .navbar li ul {
+            position: absolute;
+            display: none;
+            width: inherit;
+            border-bottom:none;
+        }
+
+        .navbar li:hover ul {
+            display: block;
+        }
+
+        .navbar li ul li {
+            display: block;
+        }
