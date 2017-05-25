@@ -1,0 +1,146 @@
+	.filter-sections div {
+		opacity: 0;
+		display: none;
+		min-height: 50px;
+		margin: 0.5em;
+		text-align: center;
+		padding: 2em 1em;
+		float: left;
+	}
+
+	.view {
+		display: block !important;
+		opacity: 1 !important;
+		transform: scale(1) rotate(0deg);
+		border-radius:4px;
+		animation: selected 300ms 1 ease-in-out;
+	}
+
+
+	/* baner*/
+	body{
+		margin: 0px;
+		padding: 0px;
+		border: 0;
+		color : red;
+		background-color: white;
+		width:auto;
+		font-size: 100%;
+		font: inherit;
+	}
+
+	.navbar ul {
+		list-style: none;
+		background-color: #f3f3f3;
+		padding: 0;
+		margin: 0; 
+		border-bottom: 5px solid #739687;
+	}
+
+	.navbar li {
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.1em;
+		line-height: 20px;
+		text-align: center;
+		position:relative;
+	}
+
+
+	.navbar a {
+		text-decoration: none;
+		color: #739687;
+		display: block;
+		padding-left: 0px;  
+	}
+
+	.navbar a:hover {
+		background-color: silver;
+	}
+
+	.navbar a.active {
+		background-color: #aaa;
+		color: #fff;
+		cursor: pointer; 
+	}
+
+	.navbar li li {
+		font-size: 0.8em;
+	}
+
+	.navbar li {
+		width: 150px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 18px;
+		display: inline-block;
+		margin-right: -4px;
+		padding: 0px;
+	}
+
+	.navbar a {
+		border-bottom: none;
+	}
+
+	.navbar > ul > li {
+		text-align: center;
+	}
+
+	.navbar > ul > li > a {
+		padding-left: 0;
+	}
+
+	.navbar li ul {
+		position: absolute;
+		display: none;
+		width: inherit;
+		border-bottom:none;
+	}
+
+	.navbar li:hover ul {
+		display: block;
+	}
+
+	.navbar li ul li {
+		display: block;
+	}
+
+	#myInput {
+		background-position: 10px 12px;
+		width: 29%;
+		font-size: 16px;
+		padding: 12px 20px 12px 45px;
+		border: 1px solid #ddd;
+		border-bottom: 10px;
+	}
+
+	#filter-links {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0;
+	}
+
+	#filter-links li a {
+		border: 1px solid #ddd;
+		width: 32%;
+		margin-top: -1px; /* Prevent double borders */
+		background-color: #f0f0f0;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 18px;
+		color: black;
+		display: block
+	}
+
+	#filter-links li a.header {
+		background-color: #e2e2e2;
+		cursor: default;
+	}
+
+	.filter-sections {
+		float : right;
+		color : blue;
+		margin-left: 35%;
+		position : absolute;
+		top : 50px;
+	}

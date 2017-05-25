@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" href="css/cities.css"/>
 	<div class="navbar">
 		<ul>
 			<li><a class="active"  href="index.html">EraStud</a></li>
@@ -18,7 +20,7 @@
 				</ul>
 			</li>
 			<li><a href="#">Accomodation</a></li>
-			<li><a href="#">Student</a></li>
+			<li><a href="#">Student/Blog</a></li>
 			<li><a href="#">Jobs</a></li>
 			<li><a href="#">About EraStud</a></li>
 			<li><a href="#">Sign In/Up</a></li>
@@ -27,138 +29,16 @@
 
 		</ul>
 	</div>
-
-	<style>
-		
-		body{
-			margin: 0px;
-			padding: 0px;
-			border: 0;
-			color : red;
-			background-color: white;
-			width:auto;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
-		}
-
-		.navbar ul {
- 			list-style: none;
-  			background-color: #f3f3f3;
-  			padding: 0;
-  			margin: 0; 
-  			border-bottom: 5px solid #739687;
-		}
-
-		.navbar li {
-  			font-family: 'Oswald', sans-serif;
-  			font-size: 1.1em;
-  			line-height: 20px;
-  			text-align: center;
-  			position:relative;
-		}
-
-
-		.navbar a {
-			text-decoration: none;
-  			color: #739687;
-  			display: block;
-  			padding-left: 0px;  
-		}
-
-		.navbar a:hover {
-  			background-color: silver;
-		}
-
-		.navbar a.active {
-  			background-color: #aaa;
-  			color: #fff;
-  			cursor: pointer; 
-		}
-
-		.navbar li li {
-  			font-size: 0.8em;
-		}
-
-		.navbar li {
-    		width: 150px;
-    		border-bottom: none;
-    		height: 50px;
-    		line-height: 50px;
-    		font-size: 18px;
-    		display: inline-block;
-   			margin-right: -4px;
-   			padding: 0px;
-  		}
-
-  		.navbar a {
-    		border-bottom: none;
-  		}
-
-  		.navbar > ul > li {
-    		text-align: center;
-  		}
-  		
-  		.navbar > ul > li > a {
-    	padding-left: 0;
-  		}
-
-  		.navbar li ul {
-    		position: absolute;
-    		display: none;
-    		width: inherit;
-			border-bottom:none;
-  		}
-
-  		.navbar li:hover ul {
-    		display: block;
-  		}
-
-  		.navbar li ul li {
-    		display: block;
-  		}
-
-		#myInput {
-			background-position: 10px 12px;
-			width: 29%;
-			font-size: 16px;
-			padding: 12px 20px 12px 45px;
-			border: 1px solid #ddd;
-			border-bottom: 10px;
-		}
-
-		#myUL {
-			list-style-type: none;
-			padding: 0px;
-			margin: 0;
-		}
-
-		#myUL li a {
-			border: 1px solid #ddd;
-			width: 32%;
-			margin-top: -1px; /* Prevent double borders */
-			background-color: #f0f0f0;
-			padding: 12px;
-			text-decoration: none;
-			font-size: 18px;
-			color: black;
-			display: block
-		}
-
-		#myUL li a.header {
-			background-color: #e2e2e2;
-			cursor: default;
-		}
-	</style>
 </head>
-<body>
 
-	<p> Description and information about the country you have selected </p>
+<body>
 
 	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search your City..">
 
-	<ul id="myUL">
+	<ul id="filter-links" class="filter-links">
 		<li><a href="#" class="header">A</a></li>
+		<li><a href="#">All</a></li>
+		<li><a href="#">Aucun</a></li>
 		<li><a href="#">Amsterdam</a></li>
 		<li><a href="#">Athens</a></li>
 
@@ -183,24 +63,18 @@
 
 		<li><a href="#" class="header">G</a></li>
 		<li><a href="#">Glasgow</a></li>
+	</ul>
 
-		<script>
-			function myFunction() {
-				var input, filter, ul, li, a, i;
-				input = document.getElementById("myInput");
-				filter = input.value.toUpperCase();
-				ul = document.getElementById("myUL");
-				li = ul.getElementsByTagName("li");
-				for (i = 0; i < li.length; i++) {
-					a = li[i].getElementsByTagName("a")[0];
-					if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-						li[i].style.display = "";
-					} else {
-						li[i].style.display = "none";
+	<div class="filter-sections">
+		<div class="amsterdam"> Amsterdam <br> Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium sterneretur et lapidum.</div>
+		<div class="frankfurt">je suis un con </div>
+		<div class="html">bonjour je suis con</div>
+		<div class="">Php</div>
+		<div class="florence">infos about florence</div>
+		<div class="Glasgow">Javascript</div>
+		<div class="php">Php</div>
+	</div>
 
-					}
-				}
-			}
-		</script>
-	</body>
-	</html>
+	<script src="js/cities.js"></script>
+</body>
+</html>
