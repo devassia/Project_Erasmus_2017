@@ -1,0 +1,28 @@
+mai 25, 2017 1:53:34 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 25, 2017 1:53:34 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 25, 2017 1:53:34 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7f0969d3')
+mai 25, 2017 1:54:34 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('464CB0B33BB0EB492C5BACFDA5DA9F6D')
+mai 25, 2017 1:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3da48f09')
+mai 25, 2017 1:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@a89d1d1')
+mai 25, 2017 1:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('1B84DCD45C2481873D0BB61644A14C63')
+mai 25, 2017 1:56:04 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 25, 2017 1:56:04 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 25, 2017 1:56:28 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 25, 2017 1:56:28 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 25, 2017 1:56:28 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7f0969d3')
+mai 25, 2017 1:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 25, 2017 1:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
