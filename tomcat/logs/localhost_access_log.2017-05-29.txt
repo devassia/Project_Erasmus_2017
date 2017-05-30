@@ -1,0 +1,17 @@
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/ HTTP/1.1" 200 6594
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/css/ui.css HTTP/1.1" 200 4707
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/css/bootstrap.min.css HTTP/1.1" 200 121205
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/city.JPG HTTP/1.1" 200 5337663
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/university.jpg HTTP/1.1" 200 954907
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/erasmus.png HTTP/1.1" 200 18009
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/accomodation.jpeg HTTP/1.1" 200 38090
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/aboutus.jpg HTTP/1.1" 200 40417
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/destination.jpg HTTP/1.1" 200 347286
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/students.jpg HTTP/1.1" 200 318285
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /erasmus/img/jobs.jpg HTTP/1.1" 200 400518
+127.0.0.1 - - [29/May/2017:04:38:10 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [29/May/2017:04:38:12 +0200] "GET /erasmus/jsp/connection.jsp HTTP/1.1" 200 2823
+127.0.0.1 - - [29/May/2017:04:38:12 +0200] "GET /erasmus/css/bootstrap.css HTTP/1.1" 200 152767
+127.0.0.1 - - [29/May/2017:04:38:18 +0200] "GET /erasmus/cities.html HTTP/1.1" 200 4371
+127.0.0.1 - - [29/May/2017:04:38:35 +0200] "GET /erasmus/index.html HTTP/1.1" 200 6594
+127.0.0.1 - - [29/May/2017:04:38:41 +0200] "GET /erasmus/jsp/connection.jsp HTTP/1.1" 200 2823

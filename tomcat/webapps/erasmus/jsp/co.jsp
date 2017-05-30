@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/cities.css"/>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+	<div class="navbar">
+		<ul>
+			<li><a class="active"  href="index.html">EraStud</a></li>
+			<li><a href="">Cities</a>
+				<ul>
+					<li><a href="#">Find your City</a></li>
+					<li><a href="#">City Ranking</a></li>
+					<li><a href="#">Experience Sharing</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Universities</a>
+				<ul>
+					<li><a href="#">Find your University</a></li>
+					<li><a href="#">University Ranking</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Accomodation</a></li>
+			<li><a href="#">Student/Blog</a></li>
+			<li><a href="#">Jobs</a></li>
+			<li><a href="#">About EraStud</a></li>
+			<li><a href="#">Sign In/Up</a></li>
+
+
+
+		</ul>
+	</div>
+</head>
+
+<body>
+
 <%@ page import="java.io.*" %>
 <%@ page import="javax.servlet.*" %>
 <%@ page import="javax.servlet.http.*" %>
@@ -36,4 +73,5 @@
 		}
 %>
 <a href="connection.jsp">Back to login</a>
-
+</body>
+</html>
