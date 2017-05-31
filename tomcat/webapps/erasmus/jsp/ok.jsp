@@ -64,6 +64,7 @@
 					 String country = rs.getString(3); // country
 					 String email = rs.getString(4); // email
 					 String passwd = rs.getString(5); // passwd
+           String img = rs.getString(6); // image
 		   
 %>
 
@@ -92,11 +93,11 @@
     <!--SECOND CADRE-->
     <div id="cadre2" style="text-align: center;">
 
-       <img src="../img/man.png" style="width:100px;height:100px;">
+       <img src= <% out.print(img); %> style="width:100px;height:100px;">
 
 
  <a href="../"><img src="../img/para.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
- <a href="../"><img src="../img/param.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+ <a href=change.jsp?mail=<% out.print(email); %>><img src="../img/param.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
 
 <br><br>
 

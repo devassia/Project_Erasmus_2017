@@ -1,0 +1,2092 @@
+mai 31, 2017 12:35:05 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 31, 2017 12:35:05 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 31, 2017 12:35:05 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@59f046ea')
+mai 31, 2017 12:35:56 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@64ef726a')
+mai 31, 2017 12:35:56 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('FD764205F0B24CC80B03C64B5312B922')
+mai 31, 2017 12:36:06 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('E06BCED46BF39F8F09BAAAD4AC64E8C5')
+mai 31, 2017 1:06:10 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('FD764205F0B24CC80B03C64B5312B922')
+mai 31, 2017 1:10:05 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 31, 2017 1:10:05 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 31, 2017 2:43:50 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 31, 2017 2:43:50 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 31, 2017 2:43:50 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@34e317a')
+mai 31, 2017 2:43:56 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@819b474')
+mai 31, 2017 2:43:56 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('694C7F45168E874C41B2FC091B0A8A74')
+mai 31, 2017 2:50:01 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 31, 2017 2:50:01 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 31, 2017 2:50:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 31, 2017 2:50:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 31, 2017 2:50:13 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1a19cc40')
+mai 31, 2017 2:50:15 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@15aba562')
+mai 31, 2017 3:02:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 31, 2017 3:02:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 31, 2017 3:06:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 31, 2017 3:06:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 31, 2017 3:06:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1c890dd7')
+mai 31, 2017 3:13:38 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@665f7f4c')
+mai 31, 2017 3:13:38 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('FB2D5122C38EA537BD84140D423788F8')
+mai 31, 2017 3:27:47 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@ed34fdc')
+mai 31, 2017 3:30:10 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('694C7F45168E874C41B2FC091B0A8A74')
+mai 31, 2017 3:32:25 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 31, 2017 3:32:25 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+mai 31, 2017 3:48:08 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+mai 31, 2017 3:48:08 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+mai 31, 2017 3:48:08 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@22a77167')
+mai 31, 2017 3:48:25 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3e99dcd4')
+mai 31, 2017 3:48:25 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('EA07E462396223D63D85476D6566BA0F')
+mai 31, 2017 3:59:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('FB2D5122C38EA537BD84140D423788F8')
+mai 31, 2017 4:01:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@5f6701a0')
+mai 31, 2017 4:41:14 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable password
+18: 			String firstname = request.getParameter("mail");
+19: 			String country = request.getParameter("password");
+20: 			String password = request.getParameter("password");
+21: 			String password = request.getParameter("password");
+22: 			String password = request.getParameter("password");
+23: 
+24: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 22 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable password
+19: 			String country = request.getParameter("password");
+20: 			String password = request.getParameter("password");
+21: 			String password = request.getParameter("password");
+22: 			String password = request.getParameter("password");
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "select passwd from client where email='"+mail+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 				while (rs.next()) 
+
+
+Une erreur s'est produite à la ligne: 33 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+36: 					out.println("<h3>Bad password</h3>");
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable password
+18: 			String firstname = request.getParameter("mail");
+19: 			String country = request.getParameter("password");
+20: 			String password = request.getParameter("password");
+21: 			String password = request.getParameter("password");
+22: 			String password = request.getParameter("password");
+23: 
+24: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 22 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable password
+19: 			String country = request.getParameter("password");
+20: 			String password = request.getParameter("password");
+21: 			String password = request.getParameter("password");
+22: 			String password = request.getParameter("password");
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "select passwd from client where email='"+mail+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 				while (rs.next()) 
+
+
+Une erreur s'est produite à la ligne: 33 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+36: 					out.println("<h3>Bad password</h3>");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 4:41:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "select passwd from client where email='"+mail+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 				while (rs.next()) 
+
+
+Une erreur s'est produite à la ligne: 32 dans le fichier jsp: /jsp/change2.jsp
+password cannot be resolved
+29: 				while (rs.next()) 
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+
+
+Une erreur s'est produite à la ligne: 33 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+36: 					out.println("<h3>Bad password</h3>");
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "select passwd from client where email='"+mail+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 				while (rs.next()) 
+
+
+Une erreur s'est produite à la ligne: 32 dans le fichier jsp: /jsp/change2.jsp
+password cannot be resolved
+29: 				while (rs.next()) 
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+
+
+Une erreur s'est produite à la ligne: 33 dans le fichier jsp: /jsp/change2.jsp
+mail cannot be resolved to a variable
+30: 				{
+31: 					 String mdp = rs.getString(1); // mdp
+32: 					if(password.equals(mdp)){
+33: 					response.sendRedirect("../jsp/ok.jsp?mail="+mail);
+34: 					}
+35: 					else {
+36: 					out.println("<h3>Bad password</h3>");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:00:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:07:05 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:07:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:11:11 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:11:20 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 26 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+23: 
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+27: 			ResultSet rs = stmt.executeQuery(query);
+28: 
+29: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:21:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+update cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+set cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable lastname
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token "=", Expression expected after this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 29 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+31: 
+32: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+update cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+set cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable lastname
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token "=", Expression expected after this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 29 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+31: 
+32: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:30:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+update cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+set cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable lastname
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token "=", Expression expected after this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 29 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+31: 
+32: 		con.close();
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+update cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+set cannot be resolved to a type
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable lastname
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Invalid character constant
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ",", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token "=", Expression expected after this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 29 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\' where email=\'"", delete this token
+26: 
+27: update client set lastname='lastname' , firstname='firstname' , city='country' , email='email' , passwd='passwd' , img='pic' where email='email'; 
+28: 			
+29: 			String query = "update client set lastname='"+lastname+"',firstname='"+firstname+"',city='"+country+"',email='"+email+"',passwd='"+passwd+"',img='"+pic"' where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query);
+31: 
+32: 		con.close();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:33:35 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\';"", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: 			String query ="update client set lastname='" +lastname +"' , firstname='" + firstname +"' , city='"+country+"' , email='"+email+"' , passwd='"+passwd+"' , img='"+pic+"' where email='"+email"';"; 
+28: 			
+29: 			ResultSet rs = stmt.executeQuery(query);
+30: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\';"", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: 			String query ="update client set lastname='" +lastname +"' , firstname='" + firstname +"' , city='"+country+"' , email='"+email+"' , passwd='"+passwd+"' , img='"+pic+"' where email='"+email"';"; 
+28: 			
+29: 			ResultSet rs = stmt.executeQuery(query);
+30: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:33:51 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\';"", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: 			String query ="update client set lastname='" +lastname +"' , firstname='" + firstname +"' , city='"+country+"' , email='"+email+"' , passwd='"+passwd+"' , img='"+pic+"' where email='"+email"';"; 
+28: 			
+29: 			ResultSet rs = stmt.executeQuery(query);
+30: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 27 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on token ""\';"", delete this token
+24: 			Statement stmt = con.createStatement();
+25: 
+26: 
+27: 			String query ="update client set lastname='" +lastname +"' , firstname='" + firstname +"' , city='"+country+"' , email='"+email+"' , passwd='"+passwd+"' , img='"+pic+"' where email='"+email"';"; 
+28: 			
+29: 			ResultSet rs = stmt.executeQuery(query);
+30: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:38:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable rs
+27: 			String query ="update client set lastname='"+lastname+"'where email='"+email+"';";
+28: 			ResultSet rs = stmt.executeQuery(query);
+29: 			String query2 ="update client set firstname='"+firstname+"'where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query2);
+31: 		con.close();
+32: 
+33: 		}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /jsp/change2.jsp
+Duplicate local variable rs
+27: 			String query ="update client set lastname='"+lastname+"'where email='"+email+"';";
+28: 			ResultSet rs = stmt.executeQuery(query);
+29: 			String query2 ="update client set firstname='"+firstname+"'where email='"+email+"';";
+30: 			ResultSet rs = stmt.executeQuery(query2);
+31: 		con.close();
+32: 
+33: 		}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:59:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail=<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail=<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 5:59:53 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail=<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail=<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:00:30 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>>
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:00:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>">
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>">
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:02:41 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>">
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/change.jsp
+email cannot be resolved to a variable
+75:     }
+76: %>
+77: 
+78: <form class="form-horizontal" action=change2.jsp?mail="<%out.print(email);%>">
+79: 
+80:    <div class="form-group">
+81:     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:11:52 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('BDBD883AA25D64F7B1E99D42A52A427C')
+mai 31, 2017 6:16:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+The method sendRedirect(String) in the type HttpServletResponse is not applicable for the arguments ()
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on tokens, delete these tokens
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+The method sendRedirect(String) in the type HttpServletResponse is not applicable for the arguments ()
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on tokens, delete these tokens
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:16:04 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+The method sendRedirect(String) in the type HttpServletResponse is not applicable for the arguments ()
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on tokens, delete these tokens
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+The method sendRedirect(String) in the type HttpServletResponse is not applicable for the arguments ()
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+Syntax error on tokens, delete these tokens
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     response.sendRedirect(../..);  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:16:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+req cannot be resolved
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     req.sendRedirect("../..");  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/change2.jsp
+req cannot be resolved
+22: 			String query ="update client set img='"+pic+"'where email='"+email+"';";
+23: 			ResultSet rs = stmt.executeQuery(query);
+24: 
+25:     req.sendRedirect("../..");  
+26: 		con.close();
+27: 
+28: 		}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mai 31, 2017 6:24:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+mai 31, 2017 6:24:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()

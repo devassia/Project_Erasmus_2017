@@ -16,9 +16,10 @@
 			String country = request.getParameter("country");
 			String mail = request.getParameter("mail");
 			String password = request.getParameter("password");
+			String img = "../img/man.png";
 
 			Statement stmt = con.createStatement();
-			String query = "insert into client values('"+lastname+"','"+firstname+"','"+country+"','"+mail+"','"+password+"');";
+			String query = "insert into client values('"+lastname+"','"+firstname+"','"+country+"','"+mail+"','"+password+"','"+img+"');";
 	
 			System.out.println("creation d'un nouvel utilisateur:");
 		    ResultSet rs = stmt.executeQuery(query);

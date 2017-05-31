@@ -86,9 +86,6 @@
 </form> 
 </div>
   
-
-
-
   <div class="cont_form_sign_up">
 
   <h2>SIGN UP</h2>
