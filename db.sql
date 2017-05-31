@@ -14,7 +14,6 @@ CREATE TABLE client(
 	city varchar(20),
 	email text CHECK (email LIKE '%@%.%') PRIMARY KEY,
 	passwd varchar(30) CHECK (passwd LIKE '%____%'),
-	CONSTRAINT FK_city FOREIGN KEY (city) REFERENCES City(idcity)
 );
 
 CREATE TABLE university(
@@ -80,6 +79,8 @@ insert into city
 
 insert into client
 	values ('Devassine', 'Alexandre','Lille', 'devassia@univ-lille1.fr', '1234' );
+insert into client
+	values ('toto', 'titi', 'Vilnius', 'toto@g.g', '123456789');
 
 /*insert into client
 	values ('Gerard', 'Cyril', 'Lille', 'gerardcyril@univ-lille1.fr', '123');
