@@ -9,7 +9,7 @@
 			<li><a class="active"  href="../index.html">EraStud</a></li>
 			<li><a href="">Cities</a>
 				<ul>
-					<li><a href="../cities.html">Find your City</a></li>
+					<li><a href="city.jsp">Find your City</a></li>
 					<li><a href="#">City Ranking</a></li>
 					<li><a href="#">Experience Sharing</a></li>
 				</ul>

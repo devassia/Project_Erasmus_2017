@@ -3136,3 +3136,7 @@ Stacktrace:
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+juin 01, 2017 7:06:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 01, 2017 7:06:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
