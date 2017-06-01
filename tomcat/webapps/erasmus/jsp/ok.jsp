@@ -22,7 +22,7 @@
           <li><a href="#">University Ranking</a></li>
         </ul>
       </li>
-      <li><a href="#">Accomodation</a></li>
+      <li><a href="https://www.booking.com/index.fr.html?aid=376366;label=fr-51aYADzKCvHZ21Orv3nXsAS193330406601%3Apl%3Ata%3Ap1%3Ap21.279.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-65526620%3Alp9062284%3Ali%3Adec%3Adm;sid=f852e761b1b63eceb745402b76efadce;keep_landing=1;redirected=1;source=country&gclid=CLOB5qyxnNQCFZQy0wodqosCIQ&">Accomodation</a></li>
       <li><a href="#">Student/Blog</a></li>
       <li><a href="#">Jobs</a></li>
       <li><a href="#">About EraStud</a></li>
@@ -74,15 +74,15 @@
     <div id="cadre1">
         <table>
    <tr>
-       <td><button style="background-color: #435BD4;height: 220px;width:270px " type="button" class="btn btn-lg btn-primary" onclick="self.location.href='lien.html'" >Search a student </button></td>
-       <td><button style="background-color: #E99BE0;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" >Find housing</button></td>
-       <td><button style="background-color: #F9F50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" >Search a job</button></td>
+       <td><button style="background-color: #435BD4;height: 220px;width:270px " type="button" class="btn btn-lg btn-primary" onclick="self.location.href='search_student.jsp?search='" >Search a student </button></td>
+       <td><button style="background-color: #E99BE0;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='https://www.booking.com/index.fr.html?aid=376366;label=fr-51aYADzKCvHZ21Orv3nXsAS193330406601%3Apl%3Ata%3Ap1%3Ap21.279.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-65526620%3Alp9062284%3Ali%3Adec%3Adm;sid=f852e761b1b63eceb745402b76efadce;keep_landing=1;redirected=1;source=country&gclid=CI6i8NWxnNQCFUUW0wodRmoF7w&'" >Find housing</button></td>
+       <td><button style="background-color: #F9F50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='search_job.jsp'" >Search a job</button></td>
    </tr>
 
    <tr>
-       <td><button style="background-color: #E22AEF;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" >Share your Erasmus Project</button></td>
-       <td><button style="background-color: #F80830;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" >Post a Comment</button></td>
-       <td><button style="background-color: #0ED50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" >Note a City/Country</button></td>
+       <td><button style="background-color: #E22AEF;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='share.jsp'" >Share your Erasmus Project</button></td>
+       <td><button style="background-color: #F80830;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='note_city.jsp'" >Note a City/Country</button></td>
+       <td><button style="background-color: #0ED50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='propose_job.jsp'" >Propose a job</button></td>
    </tr>
 </table>
 <br><br><br>
