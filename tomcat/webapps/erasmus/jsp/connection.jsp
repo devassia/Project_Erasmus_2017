@@ -124,7 +124,7 @@
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Pass:</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control"  id="pwd" name="password" placeholder="Enter your password">
+      <input type="password" class="form-control"  id="pwd" name="password" placeholder="password (3>characteres)">
     </div>
   </div>
 

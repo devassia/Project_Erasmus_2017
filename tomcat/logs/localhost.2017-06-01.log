@@ -2140,3 +2140,445 @@ juin 01, 2017 3:35:11 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 01, 2017 3:35:11 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 01, 2017 3:43:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 01, 2017 3:43:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 01, 2017 3:43:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1a19cc40')
+juin 01, 2017 3:44:15 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@2b687026')
+juin 01, 2017 3:44:15 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('1BD6FB86D0DA92B850B7FFB6BFE59FB2')
+juin 01, 2017 3:44:22 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@fe91b74')
+juin 01, 2017 4:00:59 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('81BBA01A2716EA9ADC992C95EFA442A3')
+juin 01, 2017 4:54:46 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('1BD6FB86D0DA92B850B7FFB6BFE59FB2')
+juin 01, 2017 5:17:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('2AA185FEBDD36F26A5CE9806E377C9E6')
+juin 01, 2017 5:44:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 56 dans le fichier jsp: /jsp/propose_job.jsp
+mail cannot be resolved to a variable
+53: 			
+54: 
+55: 			Statement stmt = con.createStatement();
+56: 			String query = "select * from client where email='"+mail+"';";
+57: 	
+58: 			ResultSet rs = stmt.executeQuery(query);
+59: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 56 dans le fichier jsp: /jsp/propose_job.jsp
+mail cannot be resolved to a variable
+53: 			
+54: 
+55: 			Statement stmt = con.createStatement();
+56: 			String query = "select * from client where email='"+mail+"';";
+57: 	
+58: 			ResultSet rs = stmt.executeQuery(query);
+59: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 01, 2017 5:44:34 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/propose_job.jsp
+img cannot be resolved to a variable
+93:     <!--SECOND CADRE-->
+94:     <div id="cadre2" style="text-align: center;">
+95: 
+96:        <img src= <% out.print(img); %> style="width:100px;height:100px;">
+97: 
+98: 
+99:  <a href="../"><img src="../img/para.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+
+
+Une erreur s'est produite à la ligne: 100 dans le fichier jsp: /jsp/propose_job.jsp
+email cannot be resolved to a variable
+97: 
+98: 
+99:  <a href="../"><img src="../img/para.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+100:  <a href=change.jsp?mail=<% out.print(email); %>><img src="../img/param.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+101: 
+102: <br><br>
+103: 
+
+
+Une erreur s'est produite à la ligne: 104 dans le fichier jsp: /jsp/propose_job.jsp
+lastname cannot be resolved to a variable
+101: 
+102: <br><br>
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+
+
+Une erreur s'est produite à la ligne: 105 dans le fichier jsp: /jsp/propose_job.jsp
+firstname cannot be resolved to a variable
+102: <br><br>
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+
+
+Une erreur s'est produite à la ligne: 106 dans le fichier jsp: /jsp/propose_job.jsp
+country cannot be resolved to a variable
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+109:     
+
+
+Une erreur s'est produite à la ligne: 107 dans le fichier jsp: /jsp/propose_job.jsp
+email cannot be resolved to a variable
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+109:     
+110: </div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/propose_job.jsp
+img cannot be resolved to a variable
+93:     <!--SECOND CADRE-->
+94:     <div id="cadre2" style="text-align: center;">
+95: 
+96:        <img src= <% out.print(img); %> style="width:100px;height:100px;">
+97: 
+98: 
+99:  <a href="../"><img src="../img/para.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+
+
+Une erreur s'est produite à la ligne: 100 dans le fichier jsp: /jsp/propose_job.jsp
+email cannot be resolved to a variable
+97: 
+98: 
+99:  <a href="../"><img src="../img/para.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+100:  <a href=change.jsp?mail=<% out.print(email); %>><img src="../img/param.jpg" style="width:30px;height:30px; margin-left: 90%"></a>
+101: 
+102: <br><br>
+103: 
+
+
+Une erreur s'est produite à la ligne: 104 dans le fichier jsp: /jsp/propose_job.jsp
+lastname cannot be resolved to a variable
+101: 
+102: <br><br>
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+
+
+Une erreur s'est produite à la ligne: 105 dans le fichier jsp: /jsp/propose_job.jsp
+firstname cannot be resolved to a variable
+102: <br><br>
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+
+
+Une erreur s'est produite à la ligne: 106 dans le fichier jsp: /jsp/propose_job.jsp
+country cannot be resolved to a variable
+103: 
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+109:     
+
+
+Une erreur s'est produite à la ligne: 107 dans le fichier jsp: /jsp/propose_job.jsp
+email cannot be resolved to a variable
+104:   <b>LastName:</b><br><% out.println(lastname); %> <br><br>
+105:   <b>FirstName:</b><br><% out.println(firstname); %><br><br>
+106:   <b> Country:</b><br><% out.println(country); %><br><br>
+107:   <b>Email:</b><br><% out.println(email); %><br><br>
+108:   <b>PassWord:</b><br>*******</div>
+109:     
+110: </div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 01, 2017 7:13:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 01, 2017 7:14:59 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 01, 2017 7:16:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/create_job.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+60:     String img = request.getParameter("img");
+61: 			
+62: 			Statement stmt = con.createStatement();
+63: 			String query = "insert into job values('"+title+"','"+email+"','"+company+"','"+city+"','"+salary+"','"+description+"','"+img+"');"
+64: 	
+65: 			ResultSet rs = stmt.executeQuery(query);
+66: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 01, 2017 7:18:50 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 01, 2017 7:18:50 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()

@@ -48,26 +48,11 @@
       String url = "jdbc:postgresql://localhost/postgres";
       
       Connection con=DriverManager.getConnection(url,"postgres","root");
-   
-
-      String search = request.getParameter("search");
-   
       Statement stmt = con.createStatement();
      
-        
-      String query ="select * from client where firstname='"+search+"';";
-      
-
+      String query ="select * from job;";
       ResultSet rs = stmt.executeQuery(query);
       
-
-      String lastname="";
-      String firstname="";
-      String country="";
-      String email="";
-      String img="";
-      
-
 %>
 
 <!--CADRE PRINCIPAL-->
@@ -77,14 +62,23 @@
     <%
        while(rs.next()){  
           
-      lastname = rs.getString(1);
-      firstname = rs.getString(2);
-      country = rs.getString(3);
-      email = rs.getString(4);
-      img = rs.getString(6);
+      String title = rs.getString(1);
+      String email = rs.getString(2);
+      String company = rs.getString(3);
+      String city = rs.getString(4);
+      int salary = rs.getInt(5);
+      String description = rs.getString(6);
+      String img = rs.getString(7);
        
 %>
-<div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(lastname+" "); out.print(firstname);%><br><%out.print(country);%><br><%out.print(email);%></div>
+<div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;">
+ <%out.print(title+" - ");out.print(company+" - ");out.print(city+" - ");out.print(salary+" Euros/month");%>
+ <br>
+ <%out.print(description);%>
+ <br>
+ <%out.print(email);%>
+</div>
+
 <%
      }
     %>
@@ -92,21 +86,9 @@
     </div>
     <!--SECOND CADRE-->
     <div id="cadre2" style="text-align: center;">
-<h4><i>You can search some student here by their FirstName</i></h4>
+<h4><i>You can search a job with some fonctionalities</i></h4>
 
 
-<br>
-<br>
-
-
- <form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="text"></label>
-    <input type="text" class="form-control" id="search" name="search" placeholder="Enter a Search">
-  </div>
-  
-  <button type="submit" class="btn btn-default">Submit</button>
-</form> 
 
     </div>
 </div>

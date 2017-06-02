@@ -1,0 +1,502 @@
+juin 02, 2017 3:35:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 02, 2017 3:35:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 02, 2017 3:35:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@39236c36')
+juin 02, 2017 3:36:28 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@65703777')
+juin 02, 2017 3:36:28 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('9FE3CCB13E939ED0A0F825AAD34F96E6')
+juin 02, 2017 3:36:59 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('2AA185FEBDD36F26A5CE9806E377C9E6')
+juin 02, 2017 3:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 02, 2017 3:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+juin 02, 2017 8:02:36 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 02, 2017 8:02:36 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 02, 2017 8:02:36 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@35e12af7')
+juin 02, 2017 8:03:37 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('9FE3CCB13E939ED0A0F825AAD34F96E6')
+juin 02, 2017 8:04:53 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@5cb67a93')
+juin 02, 2017 8:04:53 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('D244CC31D9BE9E22D868B965CDE8F0A9')
+juin 02, 2017 9:54:33 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('D244CC31D9BE9E22D868B965CDE8F0A9')
+juin 02, 2017 9:54:33 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('DE822FC1092AE1A2F3D105E467BCBADC')
+juin 02, 2017 9:55:57 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@41dbc480')
+juin 02, 2017 10:08:09 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+66:       String email = rs.getString(2);
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+66:       String email = rs.getString(2);
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getString(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 02, 2017 10:08:32 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+66:       String email = rs.getString(2);
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+66:       String email = rs.getString(2);
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       Sring salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 02, 2017 10:08:47 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 02, 2017 10:10:11 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring description = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 02, 2017 10:10:57 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring descriptione = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring descriptione = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+67:       String company = rs.getString(3);
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring descriptione = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/search_job.jsp
+Sring cannot be resolved to a type
+68:       String city = rs.getString(4);
+69:       int salary = rs.getInt(5);
+70:       Sring descriptione = rs.getString(6);
+71:       Sring img = rs.getString(7);
+72:        
+73: %>
+74: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;"> <%out.print(title+" "); out.print(company);%><br><%out.print(city);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 02, 2017 10:34:21 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 02, 2017 10:34:21 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
