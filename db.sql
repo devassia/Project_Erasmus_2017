@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 ﻿DROP TABLE IF EXISTS job;
 DROP TABLE IF EXISTS commentplace;
+=======
+﻿DROP TABLE IF EXISTS job CASCADE;
+DROP TABLE IF EXISTS placephotocomment;
+DROP TABLE IF EXISTS placetovisit;
+>>>>>>> 535e014cdc2727ba9b51d498d2c4ad3c79cf8118
 DROP TABLE IF EXISTS subject;
 DROP TABLE IF EXISTS university CASCADE;
 DROP TABLE IF EXISTS client CASCADE;
@@ -57,7 +63,13 @@ CREATE TABLE job(
 	city text,
 	salary int CHECK (salary>0),
 	description text,
+<<<<<<< HEAD
 	img text,
 	CONSTRAINT PK_job PRIMARY KEY (title),
 	CONSTRAINT FK_client FOREIGN KEY (email) REFERENCES client(email)
+=======
+	CONSTRAINT PK_job PRIMARY KEY (idjob),
+	CONSTRAINT FK_client FOREIGN KEY (email) REFERENCES client(email),
+	CONSTRAINT FK_city FOREIGN KEY (city) REFERENCES city(idcity)
+>>>>>>> 535e014cdc2727ba9b51d498d2c4ad3c79cf8118
 );
