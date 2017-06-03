@@ -1,9 +1,4 @@
-DROP TABLE IF EXISTS job CASCADE;
-﻿DROP TABLE IF EXISTS commentplace CASCADE;
-DROP TABLE IF EXISTS client CASCADE;
-﻿DROP TABLE IF EXISTS subject CASCADE;
-DROP TABLE IF EXISTS university CASCADE;
-DROP TABLE IF EXISTS city CASCADE;
+DROP TABLE IF EXISTS job, commentplace, client, subject, university, city;
 
 CREATE TABLE city(
 	idcity text NOT NULL PRIMARY KEY,

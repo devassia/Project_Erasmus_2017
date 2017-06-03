@@ -28,3 +28,15 @@ juin 03, 2017 11:35:08 AM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 03, 2017 11:35:08 AM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 03, 2017 11:39:57 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 03, 2017 11:39:57 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 03, 2017 11:39:57 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1a202d1d')
+juin 03, 2017 11:40:04 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@5a55bfe3')
+juin 03, 2017 11:40:04 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('1E499AB96B680E10F3504D1F6A5195BC')
+juin 03, 2017 11:43:06 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@4163c80e')
