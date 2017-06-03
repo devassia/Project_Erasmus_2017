@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Cities </title>
+	<title> Universities </title>
 	<link rel="stylesheet" href="../css/cities.css"/>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
@@ -27,8 +27,9 @@
 </head>
 
 <body>
+
 	<form>
-		<input type="text" name="search" id="myInput" onkeyup="myFunction()" placeholder="Search your City..">
+		<input type="text" name="search" id="myInput" onkeyup="myFunction()" placeholder="Search your University..">
 	</form>
 	
 	<%@ page import="java.io.*" %>
@@ -46,19 +47,19 @@
 		Statement stmt = con.createStatement();
 
 		// list of cities
-		String query ="select idcity from city order by idcity asc;";
+		String query ="select name from university order by name asc;";
 		ResultSet rs = stmt.executeQuery(query);
 
 		%>
 		<ul id="filter-links" class="filter-links">
 			<%
 			while(rs.next()){
-				String idcity = rs.getString(1);
-				%> <li><a href="#"><%out.print(idcity);%></a></li> <%
+				String name = rs.getString(1);
+				%> <li><a href="#"><%out.print(name);%></a></li> <%
 			}
 
 			// list and cities with description
-			query = "select idcity, description, img from city order by idcity asc;";
+			query = "select * from university order by name asc;";
 			rs = stmt.executeQuery(query);
 			%> 
 		</ul>
@@ -66,15 +67,17 @@
 		<div class="filter-sections">
 			<%
 			while(rs.next()){
-				String idcity = rs.getString(1);
-				String description = rs.getString(2);
-				String img = rs.getString(3);
+				String name = rs.getString(1);
+				String city = rs.getString(2);
+				String mail = rs.getString(3);
+				String site = rs.getString(4);
+				String description = rs.getString(5);
+				String img = rs.getString(6);
 		
-				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
-				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
-				<a href="#" class="w3-button w3-teal">The opinions of our users</a></p>
-
-				</div> <%
+				%> <div class=<%out.print(name);%> > <h1> <%out.print(name);%> </h1> <img style="width: 400px; height: 200px" 
+				src=<%out.print(img);%>/> <br> Located in <%out.print(city);%> 
+				<br> <br> <br> <%out.print(description);%> <br> 
+				<p><a href="http://<%out.print(site);%>" class="w3-button w3-teal">Site of <%out.print(name);%></a></p> </div> <%
 			}
 			%>
 		</div>
