@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-﻿DROP TABLE IF EXISTS job;
-DROP TABLE IF EXISTS commentplace;
-=======
-﻿DROP TABLE IF EXISTS job CASCADE;
-DROP TABLE IF EXISTS placephotocomment;
-DROP TABLE IF EXISTS placetovisit;
->>>>>>> 535e014cdc2727ba9b51d498d2c4ad3c79cf8118
-DROP TABLE IF EXISTS subject;
+DROP TABLE IF EXISTS job CASCADE;
+﻿DROP TABLE IF EXISTS commentplace CASCADE;
+﻿DROP TABLE IF EXISTS subject CASCADE;
 DROP TABLE IF EXISTS university CASCADE;
 DROP TABLE IF EXISTS client CASCADE;
 DROP TABLE IF EXISTS city CASCADE;
@@ -27,29 +21,25 @@ CREATE TABLE client(
 );
 
 CREATE TABLE university(
-	iduniv int NOT NULL PRIMARY KEY,
-	name varchar(50),
+	name varchar(50) NOT NULL PRIMARY KEY,
 	city varchar(20),
 	address text,
-	CONSTRAINT FK_City FOREIGN KEY (city) REFERENCES city(idcity)
+	img text
 );
 
 CREATE TABLE subject(
-	idSub int NOT NULL PRIMARY KEY,
 	title varchar(50),
 	email text,
 	ects int,
-	semesters int,
-	dateofSub date,
+	years int,
 	description text,
-	CONSTRAINT FK_client FOREIGN KEY (email) REFERENCES client(email)
+CONSTRAINT PK_university PRIMARY KEY(title,email,years)
 );
-
 
 CREATE TABLE commentplace(
 	email text,
 	img text,
-	comment text,	
+	comment text,
 	rating decimal,
 	city text,
 	CONSTRAINT PK_commentplace PRIMARY KEY(city),
@@ -63,13 +53,8 @@ CREATE TABLE job(
 	city text,
 	salary int CHECK (salary>0),
 	description text,
-<<<<<<< HEAD
 	img text,
 	CONSTRAINT PK_job PRIMARY KEY (title),
 	CONSTRAINT FK_client FOREIGN KEY (email) REFERENCES client(email)
-=======
-	CONSTRAINT PK_job PRIMARY KEY (idjob),
-	CONSTRAINT FK_client FOREIGN KEY (email) REFERENCES client(email),
-	CONSTRAINT FK_city FOREIGN KEY (city) REFERENCES city(idcity)
->>>>>>> 535e014cdc2727ba9b51d498d2c4ad3c79cf8118
+
 );
