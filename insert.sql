@@ -58,3 +58,20 @@ insert into subject
 
 insert into subject
 	values('internship in other thing','test@test.test','VGTU',2017,'work');
+
+insert into commentplace
+	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',5,'Vilnius');
+
+insert into commentplace
+	values('test@test.test','Paris is good blablablabla',5,'Paris');
+
+insert into commentplace
+	values('a.devassine@orange.fr','blablablabla',3,'Paris');
+
+insert into job
+	values('Pizza','a.devassine@orange.fr','pizza-express','Vilnius',1200,'i search a student for 1 month in order to made pizza in my restaurant.','http://miam-images.m.i.pic.centerblog.net/108623b0.png');
+
+insert into job
+	values('Taxi','test@test.test','taxi-express','Paris',1200,'I search i person who can drive a car','https://lh4.ggpht.com/KBO82W8HKo92vXFZBmlZCegmWWMjOr55SWBa3VcUiqwqhZLlsvEE4kWlFwQM9yHNZSc=w300');
+
+	

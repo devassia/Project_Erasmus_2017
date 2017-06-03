@@ -37,12 +37,10 @@ CONSTRAINT FK_subject2 FOREIGN KEY(university) REFERENCES university(name)
 
 CREATE TABLE commentplace(
 	email text,
-	img text,
 	comment text,
 	rating decimal,
 	city text,
-	CONSTRAINT PK_commentplace PRIMARY KEY(city),
-	CONSTRAINT FK_client FOREIGN KEY(email) REFERENCES client(email)
+	CONSTRAINT PK_commentplace PRIMARY KEY(email,city)
 );
 
 CREATE TABLE job(
