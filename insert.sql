@@ -42,22 +42,22 @@ insert into client
 
 
 insert into university
-	values('Lille 1','lille','univ-lille1@univ-lille1.fr','http://www.univ-lille1.fr/digitalAssets/38/38040_logo-trans.png');
+	values('lille','lille','univ-lille1@univ-lille1.fr','www.lille1.fr','it s a good university','http://www.univ-lille1.fr/digitalAssets/38/38040_logo-trans.png');
 
 insert into university
-	values('VGTU','vilnius','vgtu@vgtu.lt','https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/VGTU_seal.svg/1024px-VGTU_seal.svg.png');
+	values('vgtu','vilnius','vgtu@vgtu.lt','www.vgtu.lt','it s a good university','https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/VGTU_seal.svg/1024px-VGTU_seal.svg.png');
 
 insert into university
-	values('Sorbonne','paris','sorbonne@univ.fr','https://www.univ-paris1.fr/fileadmin/templates/v2/images/logo-univ-paris1.fr.png');
+	values('sorbonne','paris','sorbonne@univ.fr','www.sorbonne.fr','it s a best university','https://www.univ-paris1.fr/fileadmin/templates/v2/images/logo-univ-paris1.fr.png');
 
 insert into university
-	values('Polytechnique','paris','polytechnique@univ.fr','https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
+	values('polytechnique','paris','polytechnique@univ.fr','https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
 
 insert into subject
-	values('internship in computing','a.devassine@orange.fr','VGTU',2017,'we work on a web application during 3 month');
+	values('internship in computing','a.devassine@orange.fr','vgtu',2017,'we work on a web application during 3 month');
 
 insert into subject
-	values('internship in other thing','test@test.test','VGTU',2017,'work');
+	values('internship in other thing','test@test.test','vgtu',2017,'work');
 
 insert into commentplace
 	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',5,'Vilnius');

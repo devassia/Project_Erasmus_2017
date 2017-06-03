@@ -54,3 +54,1263 @@ juin 03, 2017 5:45:42 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 03, 2017 5:45:42 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 03, 2017 6:09:11 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 03, 2017 6:09:11 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 03, 2017 6:09:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@35e12af7')
+juin 03, 2017 6:09:28 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@250e343a')
+juin 03, 2017 6:09:28 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('0B3168A21C81AD1B96E485388F41A3CE')
+juin 03, 2017 6:10:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('A0D560CA516D3C8B750581853AC36B69')
+juin 03, 2017 6:27:25 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@57310038')
+juin 03, 2017 6:32:01 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "==", invalid AssignmentOperator
+57:       ResultSet rs = stmt.executeQuery(query);
+58:       if(ville.equals("all")){
+59:       out.print("tout");
+60:       query =="select * from job;";
+61:       }
+62:       else {
+63:       out.print("seulement");
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "==", invalid AssignmentOperator
+57:       ResultSet rs = stmt.executeQuery(query);
+58:       if(ville.equals("all")){
+59:       out.print("tout");
+60:       query =="select * from job;";
+61:       }
+62:       else {
+63:       out.print("seulement");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 6:32:26 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "==", invalid AssignmentOperator
+58:       
+59:       if(ville.equals("all")){
+60:       out.print("tout");
+61:       query =="select * from job;";
+62:       }
+63:       else {
+64:       out.print("seulement");
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "==", invalid AssignmentOperator
+58:       
+59:       if(ville.equals("all")){
+60:       out.print("tout");
+61:       query =="select * from job;";
+62:       }
+63:       else {
+64:       out.print("seulement");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 6:32:35 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 57 dans le fichier jsp: /jsp/search_job.jsp
+The local variable query may not have been initialized
+54:       Statement stmt = con.createStatement();
+55:      
+56:       String query; 
+57:       ResultSet rs = stmt.executeQuery(query);
+58: 
+59:       if(ville.equals("all")){
+60:       out.print("tout");
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 57 dans le fichier jsp: /jsp/search_job.jsp
+The local variable query may not have been initialized
+54:       Statement stmt = con.createStatement();
+55:      
+56:       String query; 
+57:       ResultSet rs = stmt.executeQuery(query);
+58: 
+59:       if(ville.equals("all")){
+60:       out.print("tout");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 6:35:11 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+75:     <!--PREMIER CADRE-->
+76:     <div id="cadre1">
+77:     <%
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+
+
+Une erreur s'est produite à la ligne: 80 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+77:     <%
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 81 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+
+
+Une erreur s'est produite à la ligne: 82 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+
+
+Une erreur s'est produite à la ligne: 85 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+88: %>
+
+
+Une erreur s'est produite à la ligne: 86 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+88: %>
+89: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;">
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+75:     <!--PREMIER CADRE-->
+76:     <div id="cadre1">
+77:     <%
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+
+
+Une erreur s'est produite à la ligne: 80 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+77:     <%
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 81 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+78:        while(rs.next()){  
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+
+
+Une erreur s'est produite à la ligne: 82 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+79:           
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+80:       String title = rs.getString(1);
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+81:       String email = rs.getString(2);
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+
+
+Une erreur s'est produite à la ligne: 85 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+82:       String company = rs.getString(3);
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+88: %>
+
+
+Une erreur s'est produite à la ligne: 86 dans le fichier jsp: /jsp/search_job.jsp
+rs cannot be resolved
+83:       String city = rs.getString(4);
+84:       int salary = rs.getInt(5);
+85:       String description = rs.getString(6);
+86:       String img = rs.getString(7);
+87:        
+88: %>
+89: <div style="width:500px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:100px;height:100px;float:left;">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:08:40 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "<", assert expected
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+CADRE cannot be resolved to a variable
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "PRINCIPAL", delete this token
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token(s), misplaced construct(s)
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete AssertStatement
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+div cannot be resolved to a variable
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+id cannot be resolved to a variable
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "<", delete this token
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+PREMIER cannot be resolved to a variable
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "CADRE", delete this token
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token(s), misplaced construct(s)
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete Statement
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+div cannot be resolved to a variable
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+id cannot be resolved to a variable
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+The operator > is undefined for the argument type(s) String, boolean
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 122 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on tokens, delete these tokens
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+125:       String title = rs.getString(1);
+
+
+Une erreur s'est produite à la ligne: 123 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete Statement
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+125:       String title = rs.getString(1);
+126:       String email = rs.getString(2);
+
+
+Une erreur s'est produite à la ligne: 178 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+175: <%
+176: 
+177:       con.close();
+178:     }
+179:     catch(Exception e){
+180:       //out.println(e.getMessage());
+181:     }
+
+
+An error occurred at line: [312] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [313] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "<", assert expected
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+CADRE cannot be resolved to a variable
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "PRINCIPAL", delete this token
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 118 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token(s), misplaced construct(s)
+115:       query ="selec * from job where city="+ville+";";
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete AssertStatement
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+div cannot be resolved to a variable
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 119 dans le fichier jsp: /jsp/search_job.jsp
+id cannot be resolved to a variable
+116:       rs = stmt.executeQuery(query);
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "<", delete this token
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+PREMIER cannot be resolved to a variable
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token "CADRE", delete this token
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 120 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on token(s), misplaced construct(s)
+117:    
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete Statement
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+div cannot be resolved to a variable
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+id cannot be resolved to a variable
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 121 dans le fichier jsp: /jsp/search_job.jsp
+The operator > is undefined for the argument type(s) String, boolean
+118: <!--CADRE PRINCIPAL-->
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+
+
+Une erreur s'est produite à la ligne: 122 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error on tokens, delete these tokens
+119: <div id="global">
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+125:       String title = rs.getString(1);
+
+
+Une erreur s'est produite à la ligne: 123 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert ";" to complete Statement
+120:     <!--PREMIER CADRE-->
+121:     <div id="cadre1">
+122:     <%
+123:        while(rs.next()){  
+124:           
+125:       String title = rs.getString(1);
+126:       String email = rs.getString(2);
+
+
+Une erreur s'est produite à la ligne: 178 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+175: <%
+176: 
+177:       con.close();
+178:     }
+179:     catch(Exception e){
+180:       //out.println(e.getMessage());
+181:     }
+
+
+An error occurred at line: [312] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [313] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:09:25 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 172 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+169: <%
+170: 
+171:       con.close();
+172:     }
+173:     catch(Exception e){
+174:       //out.println(e.getMessage());
+175:     }
+
+
+An error occurred at line: [308] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 172 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+169: <%
+170: 
+171:       con.close();
+172:     }
+173:     catch(Exception e){
+174:       //out.println(e.getMessage());
+175:     }
+
+
+An error occurred at line: [308] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:09:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:11:23 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:11:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:12:01 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 173 dans le fichier jsp: /jsp/search_job.jsp
+Syntax error, insert "}" to complete Block
+170: <%
+171: 
+172:       con.close();
+173:     }
+174:     catch(Exception e){
+175:       //out.println(e.getMessage());
+176:     }
+
+
+An error occurred at line: [309] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [310] in the generated java file: [C:\Users\alexandre devassine\Desktop\Vilnius\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\search_005fjob_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 03, 2017 7:40:36 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 03, 2017 7:40:36 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()

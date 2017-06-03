@@ -19,7 +19,9 @@ CREATE TABLE client(
 CREATE TABLE university(
 	name varchar(50) NOT NULL PRIMARY KEY,
 	city varchar(20),
-	address text,
+	mail text,
+	site text,
+	description text,
 	img text,
 	CONSTRAINT FK_university FOREIGN KEY(city) REFERENCES city(idcity)
 );

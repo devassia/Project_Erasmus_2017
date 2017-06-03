@@ -48,10 +48,26 @@
       String url = "jdbc:postgresql://localhost/postgres";
       
       Connection con=DriverManager.getConnection(url,"postgres","root");
+      
+      String ville = request.getParameter("ville");
+
       Statement stmt = con.createStatement();
      
-      String query ="select * from job;";
-      ResultSet rs = stmt.executeQuery(query);
+      String query; 
+      ResultSet rs;
+      
+
+      if(ville.equals("all")){
+      out.print("tout");
+      query ="select * from job;";
+       rs = stmt.executeQuery(query);
+      }
+      else {
+      out.print("seulement");
+      query ="select * from job where city='"+ville+"';";
+      rs = stmt.executeQuery(query);
+      }
+
       
 %>
 
@@ -86,8 +102,16 @@
     </div>
     <!--SECOND CADRE-->
     <div id="cadre2" style="text-align: center;">
-<h4><i>You can search a job with some fonctionalities</i></h4>
+<h4><i>You can search a job in a city</i></h4>
 
+ <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="text"></label>
+    <input type="text" style="height: 40px" class="form-control" id="ville" name="ville" placeholder="Enter a city">
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form> 
 
 
     </div>

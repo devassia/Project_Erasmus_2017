@@ -76,7 +76,7 @@
    <tr>
        <td><button style="background-color: #435BD4;height: 220px;width:270px " type="button" class="btn btn-lg btn-primary" onclick="self.location.href='search_student.jsp?search='" >Search a student </button></td>
        <td><button style="background-color: #E99BE0;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='https://www.booking.com/index.fr.html?aid=376366;label=fr-51aYADzKCvHZ21Orv3nXsAS193330406601%3Apl%3Ata%3Ap1%3Ap21.279.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-65526620%3Alp9062284%3Ali%3Adec%3Adm;sid=f852e761b1b63eceb745402b76efadce;keep_landing=1;redirected=1;source=country&gclid=CI6i8NWxnNQCFUUW0wodRmoF7w&'" >Find housing</button></td>
-       <td><button style="background-color: #F9F50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='search_job.jsp'" >Search a job</button></td>
+       <td><button style="background-color: #F9F50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='search_job.jsp?ville=all'" >Search a job</button></td>
    </tr>
 
    <tr>
