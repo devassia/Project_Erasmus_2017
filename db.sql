@@ -1,14 +1,15 @@
 DROP TABLE IF EXISTS job CASCADE;
 ﻿DROP TABLE IF EXISTS commentplace CASCADE;
+DROP TABLE IF EXISTS client CASCADE;
 ﻿DROP TABLE IF EXISTS subject CASCADE;
 DROP TABLE IF EXISTS university CASCADE;
-DROP TABLE IF EXISTS client CASCADE;
 DROP TABLE IF EXISTS city CASCADE;
 
 CREATE TABLE city(
 	idcity text NOT NULL PRIMARY KEY,
 	country text,
-	description text
+	description text,
+	img text
 );
 
 CREATE TABLE client(
@@ -24,16 +25,19 @@ CREATE TABLE university(
 	name varchar(50) NOT NULL PRIMARY KEY,
 	city varchar(20),
 	address text,
-	img text
+	img text,
+	CONSTRAINT FK_university FOREIGN KEY(city) REFERENCES city(idcity)
 );
 
 CREATE TABLE subject(
 	title varchar(50),
 	email text,
-	ects int,
+	university text,
 	years int,
 	description text,
-CONSTRAINT PK_university PRIMARY KEY(title,email,years)
+CONSTRAINT PK_subject PRIMARY KEY(title,years),
+CONSTRAINT FK_subject FOREIGN KEY(email) REFERENCES client(email),
+CONSTRAINT FK_subject2 FOREIGN KEY(university) REFERENCES university(name)
 );
 
 CREATE TABLE commentplace(
