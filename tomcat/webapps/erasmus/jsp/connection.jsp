@@ -89,28 +89,28 @@
   <div class="cont_form_sign_up">
 
   <h2>SIGN UP</h2>
-<br>
+
  
 <form class="form-horizontal" action="create.jsp">
 
 <div class="form-group">
     <label class="control-label col-sm-2" for="text">LastN:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="LName"  name="lastname" placeholder="Enter your Last Name">
+      <input type="text" class="form-control" id="LName"  name="lastname" style="width: 250px;height:48px;" placeholder="Enter your Last Name">
     </div>
   </div>
 
 <div class="form-group">
     <label class="control-label col-sm-2" for="text">FirstN:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="FName"  name="firstname" placeholder="Enter your First Name">
+      <input type="text" class="form-control" id="FName"  name="firstname" style="width: 250px;height: 48px;" placeholder="Enter your First Name">
     </div>
   </div>
 
 <div class="form-group">
     <label class="control-label col-sm-2" for="text">Country:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="Country"  name="country" placeholder="Enter your Country">
+      <input type="text" class="form-control" id="Country"  name="country" style="width: 250px;height: 48px;" placeholder="Enter your Country">
     </div>
   </div>
 

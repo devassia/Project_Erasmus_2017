@@ -107,7 +107,7 @@
  <form class="form-inline">
   <div class="form-group">
     <label class="sr-only" for="text"></label>
-    <input type="text" style="height: 40px" class="form-control" id="ville" name="ville" placeholder="Enter a city">
+    <input type="text" style="height: 40px" class="form-control" id="ville" name="ville" style="width: 250px;height: 50px;" placeholder="Enter a city">
   </div>
   
   <button type="submit" class="btn btn-default">Submit</button>

@@ -37,55 +37,55 @@
 <body>
 
 <h4><i>You can Propose a student job but you need to add some informations about it.</i></h4>
-<br><br><br>
+<br><br>
    <form class="form-horizontal" action=create_job.jsp>
 
   <div class="form-group" >
     <label class="control-label col-sm-2" for="text" >Title :</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 30px; width: 400px" id="title"  name="title" placeholder="Enter the title of the job">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="title"  name="title" placeholder="Enter the title of the job">
     </div>
   </div>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >Email:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="email"  style="height: 30px; width: 400px" name="mail" placeholder="Enter your email">
+      <input type="email" class="form-control" id="email"  style="height: 50px; width: 400px" name="mail" placeholder="Enter your email">
     </div>
   </div>
 
   <div class="form-group" >
     <label class="control-label col-sm-2" for="text" >Company:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 30px; width: 400px" id="text"  name="company" placeholder="Enter the job's company">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="text"  name="company" placeholder="Enter the job's company">
     </div>
   </div>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="text" >City:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height:30px; width: 400px" id="city"  name="city" placeholder="Enter the job's city">
+      <input type="text" class="form-control" style="height:50px; width: 400px" id="city"  name="city" placeholder="Enter the job's city">
     </div>
   </div>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >Salary(<0)</label>
     <div class="col-sm-10">
-      <input type="salary" class="form-control" id="salary"  style="height: 30px; width: 400px" name="salary" placeholder="Enter the job's salary">
+      <input type="salary" class="form-control" id="salary"  style="height:50px; width: 400px" name="salary" placeholder="Enter the job's salary">
     </div>
   </div>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >Description:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 30px; width: 400px" id="description"  name="description" placeholder="Enter the job's description">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="description"  name="description" placeholder="Enter the job's description">
     </div>
   </div>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >URL's pic :</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 30px; width: 400px" id="img"  name="img" placeholder="URL of your pic's company">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="img"  name="img" placeholder="URL of your pic's company">
     </div>
   </div>
 

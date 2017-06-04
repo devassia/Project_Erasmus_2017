@@ -80,7 +80,7 @@
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Email:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control"  id="email" name="email" placeholder="Enter your email">
+      <input type="text" class="form-control"  id="email" name="email" style="height: 50px;width: 400px" placeholder="Enter your email">
     </div>
   </div>
 
@@ -88,7 +88,7 @@
    <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control"  id="img" name="img" placeholder="Enter the URL of your profil's pic">
+      <input type="text" class="form-control"  id="img" name="img" style="height: 50px;width: 400px" placeholder="Enter the URL of your profil's pic">
     </div>
   </div>
 

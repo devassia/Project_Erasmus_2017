@@ -102,7 +102,7 @@
  <form class="form-inline">
   <div class="form-group">
     <label class="sr-only" for="text"></label>
-    <input type="text" class="form-control" id="search" name="search" placeholder="Enter a Search">
+    <input type="text" class="form-control" id="search" name="search" style="width: 250px;height: 50px;" placeholder="Enter a Search">
   </div>
   
   <button type="submit" class="btn btn-default">Submit</button>
