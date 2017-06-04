@@ -1,8 +1,8 @@
 insert into city
-	values ('amsterdam', 'Netherlands', 'is the capital and most populous municipality of the Kingdom of the Netherlands.','https://lonelyplanetimages.imgix.net/mastheads/stock-photo-beautiful-amsterdam-76796579.jpg?sharp=10&vib=20&w=1200');
+	values ('amsterdam', 'Netherlands', 'Amsterdam is the capital and most populous municipality of the Kingdom of the Netherlands. Its status as the capital is mandated by the Constitution of the Netherlands, although it is not the seat of the government, which is The Hague. Amsterdam has a population of 851,373 within the city proper, 1,351,587 in the urban area, and 2,410,960 in the Amsterdam metropolitan area. The city is located in the province of North Holland in the west of the country. The metropolitan area comprises much of the northern part of the Randstad, one of the larger conurbations in Europe, with a population of approximately 7 million.','https://lonelyplanetimages.imgix.net/mastheads/stock-photo-beautiful-amsterdam-76796579.jpg?sharp=10&vib=20&w=1200');
 
 insert into city
-	values ('athens', 'Greece', 'is the capital and largest city of Greece.','https://www.lonelyplanet.fr/sites/lonelyplanet/files/styles/manual_crop/public/media/destination/slider/descktop/gettyrf_88786323.jpg?itok=7mmXpPX4' );
+	values ('athens', 'Greece', 'is the capital and largest city of Greece. It dominates the Attica region and is one of the world"s oldest cities, with its recorded history spanning over 3,400 years, and its earliest human presence starting somewhere between the 11th and 7th millennia BC.','https://www.lonelyplanet.fr/sites/lonelyplanet/files/styles/manual_crop/public/media/destination/slider/descktop/gettyrf_88786323.jpg?itok=7mmXpPX4' );
 
 insert into city
 	values ('barcelona', 'Spain', 'is the capital city of the autonomous community of Catalonia in the Kingdom of Spain','https://www.transat.com/getmedia/805de2a9-6202-491e-bb9f-cdf57e3a248c/Barcelona-Madrid-002?width=579');
@@ -42,16 +42,16 @@ insert into client
 
 
 insert into university
-	values('lille','lille','univ-lille1@univ-lille1.fr','www.lille1.fr','it s a good university','http://www.univ-lille1.fr/digitalAssets/38/38040_logo-trans.png');
+	values('lille1','lille','univ-lille1@univ-lille1.fr','http://www.univ-lille1.fr','The Lille University of Science and Technology (French: Université Lille 1 : Sciences et Technologies) is a French university located on a dedicated main campus in Villeneuve d`Ascq with 20,000 full-time students plus 14,500 students in continuing education (2004). 1,310 permanent faculty members plus 1,200 staff and around 140 CNRS researchers work there in the different University Lille 1 institutes and 43 research labs. University Lille 1 is a member of the European Doctoral College Lille-Nord-Pas de Calais, which produces 400 doctorate dissertations every year. The university is ranked in the world top 200 universities in mathematics by the Shanghai ranking.','http://www.univ-lille1.fr/digitalAssets/38/38040_logo-trans.png');
 
 insert into university
-	values('vgtu','vilnius','vgtu@vgtu.lt','www.vgtu.lt','it s a good university','https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/VGTU_seal.svg/1024px-VGTU_seal.svg.png');
+	values('vgtu','vilnius','vgtu@vgtu.lt','www.vgtu.lt','Vilniaus Gedimino technikos universitetas (Vilnius Gediminas Technical University), also known as VGTU, is a public university in Vilnius, Lithuania. Founded on 1 September 1956, the university was first a Vilnius-based evening division of the Kaunas Polytechnic Institute. It currently has 10 faculties, 14 research institutes, 33 research laboratories, and two research and four training centers. According to the QS World University Rankings, VGTU is in the top four percent of world universities. QS has given VGTU five stars in teaching, facilities, and innovation. Measuring student mobility in the ERASMUS exchange program, VGTU is the most popular university in Lithuania for foreign students.','https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/VGTU_seal.svg/1024px-VGTU_seal.svg.png');
 
 insert into university
 	values('sorbonne','paris','sorbonne@univ.fr','www.sorbonne.fr','it s a best university','https://www.univ-paris1.fr/fileadmin/templates/v2/images/logo-univ-paris1.fr.png');
 
 insert into university
-	values('polytechnique','paris','polytechnique@univ.fr','https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
+	values('polytechnique','paris','polytechnique@univ.fr', 'www.polytechnique.fr' ,'https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
 
 insert into subject
 	values('internship in computing','a.devassine@orange.fr','vgtu',2017,'we work on a web application during 3 month');
