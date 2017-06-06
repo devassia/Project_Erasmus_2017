@@ -544,3 +544,8 @@
 127.0.0.1 - - [03/Jun/2017:21:03:31 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
 127.0.0.1 - - [03/Jun/2017:21:04:07 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7571
 127.0.0.1 - - [03/Jun/2017:21:04:09 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7571
+127.0.0.1 - - [03/Jun/2017:21:05:38 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7571
+127.0.0.1 - - [03/Jun/2017:21:05:42 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7571
+127.0.0.1 - - [03/Jun/2017:21:05:43 +0300] "GET /erasmus/jsp/university.jsp HTTP/1.1" 200 4000
+127.0.0.1 - - [03/Jun/2017:21:05:43 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
+127.0.0.1 - - [03/Jun/2017:21:05:44 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7571

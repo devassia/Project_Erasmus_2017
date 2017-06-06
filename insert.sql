@@ -28,6 +28,7 @@ insert into city
 insert into city
 	values ('vilnius', 'Lithuania', 'is the capital of Lithuania and its largest city, with a population of 542,664 as of 2015.','https://fr.aegeanair.com/-/media/destinations/vilnius/vilnius_final_s_3.jpg?w=364&centercrop=1&h=224&usecustomfunctions=1&la=fr&hash=38200A8DA59D90FE7B5F89047D1A58A1FE9DE0A3');
 
+
 insert into client
 	values('Devassine','Alexandre','France','a.devassine@orange.fr','alex09011996');
 
@@ -53,20 +54,44 @@ insert into university
 insert into university
 	values('polytechnique','paris','polytechnique@univ.fr', 'www.polytechnique.fr' ,'https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
 
+
 insert into subject
 	values('internship in computing','a.devassine@orange.fr','vgtu',2017,'we work on a web application during 3 month');
 
 insert into subject
 	values('internship in other thing','test@test.test','vgtu',2017,'work');
 
-insert into commentplace
-	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',5,'Vilnius');
 
 insert into commentplace
-	values('test@test.test','Paris is good blablablabla',5,'Paris');
+	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',4.4,'vilnius');
 
 insert into commentplace
-	values('a.devassine@orange.fr','blablablabla',3,'Paris');
+	values('test@test.test','Paris is good blablablabla',4.9,'paris');
+
+insert into commentplace
+	values('a.devassine@orange.fr','blablablabla',3.7,'paris');
+
+insert into commentplace
+	values('test@test.test', 'blablabla', 1.4, 'vilnius');
+
+insert into commentplace
+	values('a.devassine@orange.fr', 'blabla', 2,'amsterdam');
+
+insert into commentplace
+	values('a.devassine@orange.fr', 'blablabla', 4.7, 'athens');
+
+insert into commentplace
+	values ('test@test.test', 'gfgfggdfgd', 4.6, 'amsterdam');
+
+insert into commentplace
+	values ('test@test.test', 'jhjhjhjh', 3, 'athens');
+
+insert into commentplace
+	values('test@test.test', 'so good', 1.5, 'barcelona');
+
+insert into commentplace
+	values ('a.devassine@orange.fr', 'rrtrtrt', 4.6, 'barcelona');
+
 
 insert into job
 	values('Pizza','a.devassine@orange.fr','pizza-express','Vilnius',1200,'i search a student for 1 month in order to made pizza in my restaurant.','http://miam-images.m.i.pic.centerblog.net/108623b0.png');
