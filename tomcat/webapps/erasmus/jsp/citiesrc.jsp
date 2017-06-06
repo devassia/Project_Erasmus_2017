@@ -59,7 +59,7 @@
 			}
 
 			// list and cities with description
-			query = "select city, comment, rating from commentplace group by city,comment, rating order by avg(rating) desc;";
+			query = "select city, comment, rating, email from commentplace group by city,comment, rating, email order by avg(rating) desc;";
 			rs = stmt.executeQuery(query);
 			%> 
 		</ul>
@@ -70,11 +70,12 @@
 				String idcity = rs.getString(1);
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
+				String client = rs.getString(4);
 		
-				%> <div class=<%out.print(idcity);%> ><p class="toto"> <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> 
+				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
-				<a href="#" class="w3-button w3-teal">The opinions of our users</a></p>
-				</p>
+				<a href="#" class="w3-button w3-teal">View the profil of user</a></p>
+
 				</div> <%
 			}
 			%>

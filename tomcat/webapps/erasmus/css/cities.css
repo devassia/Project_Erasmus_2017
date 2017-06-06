@@ -137,11 +137,7 @@
 		margin: 0.5em;
 		text-align: center;
 		padding: 2em 1em;
-		float: left; 		
-	}
-	p.toto {
-    border-style: solid;
-    border-width: medium;
+		float: left;	
 	}
 
 	.view {
