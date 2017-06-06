@@ -1095,3 +1095,537 @@ juin 06, 2017 4:54:09 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 06, 2017 4:54:09 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 06, 2017 4:57:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 06, 2017 4:57:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 06, 2017 4:57:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@56e7f226')
+juin 06, 2017 4:57:08 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@27a599ac')
+juin 06, 2017 4:57:08 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('C6C7433610E349E64C5A5D450F1D1205')
+juin 06, 2017 4:58:43 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@1f589878')
+juin 06, 2017 5:18:12 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 90 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable con
+87:    <br>
+88:     <%
+89: 
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+
+
+Une erreur s'est produite à la ligne: 92 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable stmt
+89: 
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable query
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable rs
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+97:           
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 90 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable con
+87:    <br>
+88:     <%
+89: 
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+
+
+Une erreur s'est produite à la ligne: 92 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable stmt
+89: 
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable query
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable rs
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+97:           
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 5:18:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 68 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+65:       
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+
+
+Une erreur s'est produite à la ligne: 72 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+75: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(lastname+" "); out.print(firstname);%><br><%out.print(country);%><br><%out.print(email);%></div>
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable query
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 68 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+65:       
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+
+
+Une erreur s'est produite à la ligne: 72 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+75: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(lastname+" "); out.print(firstname);%><br><%out.print(country);%><br><%out.print(email);%></div>
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/studentblog.jsp
+Duplicate local variable query
+90:       Connection con=DriverManager.getConnection(url,"postgres","root");
+91:      
+92:       Statement stmt = con.createStatement();
+93:       String query="select * from client;";
+94:       ResultSet rs = stmt.executeQuery(query);
+95:       
+96:        while(rs.next()){  
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 5:19:04 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('1E1924CE489EA0CE5F3173FAC915AED3')
+juin 06, 2017 5:19:19 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 68 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+65:       
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+
+
+Une erreur s'est produite à la ligne: 72 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+75: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(lastname+" "); out.print(firstname);%><br><%out.print(country);%><br><%out.print(email);%></div>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 68 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+65:       
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+
+
+Une erreur s'est produite à la ligne: 69 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+66:        while(rs1.next()){  
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+
+
+Une erreur s'est produite à la ligne: 70 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+67:           
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+
+
+Une erreur s'est produite à la ligne: 71 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+68:       String lastname = rs.getString(1);
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+
+
+Une erreur s'est produite à la ligne: 72 dans le fichier jsp: /jsp/studentblog.jsp
+rs cannot be resolved
+69:       String firstname = rs.getString(2);
+70:       String country = rs.getString(3);
+71:       String email = rs.getString(4);
+72:       String img = rs.getString(6);
+73:        
+74: %>
+75: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(lastname+" "); out.print(firstname);%><br><%out.print(country);%><br><%out.print(email);%></div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 5:20:04 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('C2BC7FC290C81E9ACD6ADA42132B7420')
+juin 06, 2017 5:24:04 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('C62E7EF465F4AB50D8D7408EC6D7118F')
+juin 06, 2017 5:25:31 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/studentblog.jsp
+img cannot be resolved to a variable
+74:       String description = rs1.getString(6);
+75:        
+76: %>
+77: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(title+" "); out.print(email);%><br><%out.print(university);%><br><%out.print(description);%></div>
+78: <%
+79:      }
+80:     %>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/studentblog.jsp
+img cannot be resolved to a variable
+74:       String description = rs1.getString(6);
+75:        
+76: %>
+77: <div style="width:450px;height:100px;border:1px solid #000;"> <img src= <% out.print(img); %> style="width:80px;height:100px;float:left;"> <%out.print(title+" "); out.print(email);%><br><%out.print(university);%><br><%out.print(description);%></div>
+78: <%
+79:      }
+80:     %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 5:37:22 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 06, 2017 5:37:22 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
