@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Cities </title>
+	<title> Cities Ranking and Comments</title>
 	<link rel="stylesheet" href="../css/cities.css"/>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
@@ -12,7 +12,7 @@
 			<li><a href="city.jsp">Cities</a>
 				<ul>
 					<li><a href="city.jsp">Find your City</a></li>
-					<li><a href="citiesrc.jsp">City Ranking</a></li>
+					<li><a href="#">City Ranking</a></li>
 				</ul>
 			</li>
 			<li><a href="university.jsp">Universities</a></li>
@@ -46,7 +46,7 @@
 		Statement stmt = con.createStatement();
 
 		// list of cities
-		String query ="select idcity from city order by idcity asc;";
+		String query ="select city, round(avg(rating),2) from commentplace group by city order by avg(rating) desc;";
 		ResultSet rs = stmt.executeQuery(query);
 
 		%>
@@ -54,11 +54,12 @@
 			<%
 			while(rs.next()){
 				String idcity = rs.getString(1);
-				%> <li><a href="#"><%out.print(idcity);%></a></li> <%
+				String rating = rs.getString(2);
+				%> <li><a href="#"><%out.print(idcity);%></a></li><%
 			}
 
 			// list and cities with description
-			query = "select idcity, description, img from city order by idcity asc;";
+			query = "select city, comment, rating from commentplace group by city,comment, rating order by avg(rating) desc;";
 			rs = stmt.executeQuery(query);
 			%> 
 		</ul>
@@ -68,18 +69,18 @@
 			while(rs.next()){
 				String idcity = rs.getString(1);
 				String description = rs.getString(2);
-				String img = rs.getString(3);
+				String rating = rs.getString(3);
 		
-				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+				%> <div class=<%out.print(idcity);%> ><p class="toto"> <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> 
 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
 				<a href="#" class="w3-button w3-teal">The opinions of our users</a></p>
-
+				</p>
 				</div> <%
 			}
 			%>
 		</div>
 
-		<script src="../js/cities.js"></script>
+		<script src="../js/citiesrc.js"></script>
 	<%
 
 		con.close();

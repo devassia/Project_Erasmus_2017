@@ -1336,3 +1336,13 @@ juin 03, 2017 9:02:22 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@43c457ad')
 juin 03, 2017 9:02:22 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: sessionCreated('83A6AB1B36F09FC6D47A48070AEA724B')
+juin 03, 2017 9:05:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 03, 2017 9:05:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 03, 2017 9:05:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@331b6458')
+juin 03, 2017 9:05:37 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@22933824')
+juin 03, 2017 9:05:37 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('3A5442AEAF9FEDCBAD8784BEE160B170')
