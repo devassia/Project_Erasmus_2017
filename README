@@ -1,1 +1,8 @@
-test
+in postgre
+	\i db.sql 
+	\i insert.sql
+
+in tomcat/bin
+	startup.bat
+
+http://localhost:8080/erasmus/index.html
