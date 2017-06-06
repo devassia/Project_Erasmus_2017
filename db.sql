@@ -30,7 +30,7 @@ CREATE TABLE subject(
 	title varchar(50),
 	email text,
 	university text,
-	years int,
+	years text,
 	description text,
 CONSTRAINT PK_subject PRIMARY KEY(title,years),
 CONSTRAINT FK_subject FOREIGN KEY(email) REFERENCES client(email),

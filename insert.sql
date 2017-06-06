@@ -56,10 +56,10 @@ insert into university
 
 
 insert into subject
-	values('internship in computing','a.devassine@orange.fr','vgtu',2017,'we work on a web application during 3 month');
+	values('internship in computing','a.devassine@orange.fr','vgtu','2017','we work on a web application during 3 month');
 
 insert into subject
-	values('internship in other thing','test@test.test','vgtu',2017,'work');
+	values('internship in other thing','test@test.test','vgtu','2017','work');
 
 
 insert into commentplace
