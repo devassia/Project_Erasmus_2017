@@ -159,3 +159,13 @@
 127.0.0.1 - - [06/Jun/2017:16:37:36 +0300] "GET /erasmus/jsp/null HTTP/1.1" 404 994
 127.0.0.1 - - [06/Jun/2017:16:37:39 +0300] "GET /erasmus/jsp/search_student.jsp?search=all HTTP/1.1" 200 2768
 127.0.0.1 - - [06/Jun/2017:16:37:39 +0300] "GET /erasmus/jsp/null HTTP/1.1" 404 994
+127.0.0.1 - - [06/Jun/2017:16:47:36 +0300] "GET /erasmus/jsp/university.jsp HTTP/1.1" 200 4000
+127.0.0.1 - - [06/Jun/2017:16:47:36 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
+127.0.0.1 - - [06/Jun/2017:16:47:36 +0300] "GET /erasmus/css/searchicon.png HTTP/1.1" 404 1014
+127.0.0.1 - - [06/Jun/2017:16:48:05 +0300] "GET /erasmus/jsp/university.jsp HTTP/1.1" 200 4000
+127.0.0.1 - - [06/Jun/2017:16:48:05 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
+127.0.0.1 - - [06/Jun/2017:16:48:12 +0300] "GET /erasmus/jsp/university.jsp HTTP/1.1" 200 4000
+127.0.0.1 - - [06/Jun/2017:16:48:12 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
+127.0.0.1 - - [06/Jun/2017:16:48:12 +0300] "GET /erasmus/jsp/city.jsp HTTP/1.1" 200 7582
+127.0.0.1 - - [06/Jun/2017:16:48:15 +0300] "GET /erasmus/jsp/university.jsp HTTP/1.1" 200 4000
+127.0.0.1 - - [06/Jun/2017:16:48:15 +0300] "GET /erasmus/jsp/null/ HTTP/1.1" 404 996
