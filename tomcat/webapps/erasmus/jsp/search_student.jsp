@@ -54,9 +54,13 @@
    
       Statement stmt = con.createStatement();
      
-        
-      String query ="select * from client where firstname='"+search+"';";
-      
+     String query="";
+        if(search.equals("all")){
+          query="select * from client;";
+        }
+        else {
+       query ="select * from client where firstname='"+search+"';";
+      }
 
       ResultSet rs = stmt.executeQuery(query);
       
@@ -74,6 +78,7 @@
 <div id="global">
     <!--PREMIER CADRE-->
     <div id="cadre1">
+   <h4><i> You can see all the student who have a account in this website.</i></h4>
     <%
        while(rs.next()){  
           
