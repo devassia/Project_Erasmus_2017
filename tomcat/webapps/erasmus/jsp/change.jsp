@@ -66,24 +66,18 @@
            String email = rs.getString(4); // email
            String passwd = rs.getString(5); // passwd
            String img = rs.getString(6); // image
-       
-}
-      con.close();
-    }
-    catch(Exception e){
-      //out.println(e.getMessage());
-    }
+
 %>
 
-<form class="form-horizontal" action="change2.jsp">
+<form class="form-horizontal" action="change2.jsp?email=<%out.print(mail);%>">
+
 
   <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Email:</label>
+    <label class="control-label col-sm-2" for="pwd">Email adress:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control"  id="email" name="email" style="height: 50px;width: 400px" placeholder="Enter your email">
+      <input type="email" class="form-control"  id="email" name="email" style="height: 50px;width: 400px" placeholder="Enter your email adress">
     </div>
   </div>
-
 
    <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">pic's URL:</label>
@@ -99,6 +93,19 @@
   </div>
 
 </form> 
+
+
+<%
+
+       
+}
+      con.close();
+    }
+    catch(Exception e){
+      //out.println(e.getMessage());
+    }
+%>
+
 
 
 </body>

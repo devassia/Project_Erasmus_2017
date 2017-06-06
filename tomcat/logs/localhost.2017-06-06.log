@@ -1,3 +1,641 @@
+<<<<<<< HEAD
+juin 06, 2017 11:55:25 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 06, 2017 11:55:25 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 06, 2017 11:55:25 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2d272f4c')
+juin 06, 2017 11:55:39 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@83d5602')
+juin 06, 2017 11:55:39 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@4167d094')
+juin 06, 2017 11:55:40 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('4948D8EE788837BEF7B7E90D0E33F037')
+juin 06, 2017 11:56:26 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('5458123944A0312F4B6AA823E088618D')
+juin 06, 2017 11:58:23 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 06, 2017 11:58:23 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+juin 06, 2017 1:11:16 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 06, 2017 1:11:16 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 06, 2017 1:11:16 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7f0969d3')
+juin 06, 2017 1:12:16 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('4948D8EE788837BEF7B7E90D0E33F037')
+juin 06, 2017 1:25:53 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3b43bfb9')
+juin 06, 2017 1:25:53 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('635929A42178E03299331CC7CB73F63E')
+juin 06, 2017 1:29:14 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@7a9f4975')
+juin 06, 2017 3:10:27 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 3:10:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 3:11:58 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 3:12:42 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /jsp/share_ok.jsp
+Type mismatch: cannot convert from String to int
+17: 			String title = request.getParameter("title");
+18: 			String mail = request.getParameter("mail");
+19: 			String university = request.getParameter("university");
+20: 			int years = request.getParameter("years");
+21: 			String description = request.getParameter("description");
+22: 
+23: 			Statement stmt = con.createStatement();
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Invalid argument to operation ++/--
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+The left-hand side of an assignment must be a variable
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Une erreur s'est produite à la ligne: 25 dans le fichier jsp: /jsp/share_ok.jsp
+Syntax error on token "++", invalid AssignmentOperator
+22: 
+23: 			Statement stmt = con.createStatement();
+24: 
+25: 			String query ="insert into subject values ('"++"');";
+26: 			ResultSet rs = stmt.executeQuery(query);
+27: 
+28:   
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 3:13:40 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 06, 2017 3:13:40 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
+=======
 juin 06, 2017 1:26:16 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextInitialized()
 juin 06, 2017 1:26:16 PM org.apache.catalina.core.ApplicationContext log
@@ -12,3 +650,4 @@ juin 06, 2017 1:29:16 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: sessionCreated('7427FC6E3894537B96D4B7EF9F15025D')
 juin 06, 2017 1:29:57 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@10f9c5a8')
+>>>>>>> fe5e63652983fe76d432b13ee4a24af9cc2be2f9
