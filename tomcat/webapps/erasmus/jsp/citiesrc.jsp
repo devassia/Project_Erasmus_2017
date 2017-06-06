@@ -55,7 +55,11 @@
 			while(rs.next()){
 				String idcity = rs.getString(1);
 				String rating = rs.getString(2);
+				int x = 1;
+				// The value of my x is always 1, I want to do a ranking
 				%> <li><a href="#"><%out.print(idcity);%></a></li><%
+				x++;
+
 			}
 
 			// list and cities with description
@@ -71,10 +75,9 @@
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
-		
 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
-				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+				</p>
 
 				</div> <%
 			}

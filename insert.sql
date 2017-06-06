@@ -66,7 +66,7 @@ insert into commentplace
 	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',4.4,'vilnius');
 
 insert into commentplace
-	values('test@test.test','Paris is good blablablabla',4.9,'paris');
+	values('test@test.test','For Catacombs tour - be there at least 40 min before opening. On day 2, I would leave Carnavalet Museum and Place de Vosges for day 5, after Montmartre and instead stroll to the left bank - Latin Quarter, Saint Germain and Luxembourg Garden. If you plan to go to top of Eiffel Tower there is still time to book advance tickets; otherwise it s more than 2 hr. queue.',4.9,'paris');
 
 insert into commentplace
 	values('a.devassine@orange.fr','blablablabla',3.7,'paris');
