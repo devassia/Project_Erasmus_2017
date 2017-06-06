@@ -23,7 +23,7 @@ CREATE TABLE university(
 	site text,
 	description text,
 	img text,
-	CONSTRAINT FK_university FOREIGN KEY(city) REFERENCES city(idcity)
+	CONSTRAINT FK_university FOREIGN KEY(mail) REFERENCES client(email)
 );
 
 CREATE TABLE subject(

@@ -17,13 +17,14 @@
 			String title = request.getParameter("title");
 			String mail = request.getParameter("mail");
 			String university = request.getParameter("university");
-			int years = request.getParameter("years");
+			String years = request.getParameter("years");
 			String description = request.getParameter("description");
 
 			Statement stmt = con.createStatement();
 
-			String query ="insert into subject values ('"++"');";
+			String query ="insert into subject values ('"+title+"','"+mail+"','"+university+"','"+years+"','"+description+"');";
 			ResultSet rs = stmt.executeQuery(query);
+			
 
   
 		con.close();
