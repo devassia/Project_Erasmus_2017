@@ -12,6 +12,7 @@ juin 07, 2017 9:19:06 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 07, 2017 9:19:06 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+<<<<<<< HEAD
 juin 07, 2017 9:20:43 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextInitialized()
 juin 07, 2017 9:20:43 PM org.apache.catalina.core.ApplicationContext log
@@ -42,3 +43,429 @@ juin 07, 2017 10:42:26 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: sessionCreated('19CE987A466C11B846F3102057753D5E')
 juin 07, 2017 11:01:16 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@179d6d94')
+=======
+juin 07, 2017 9:31:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 07, 2017 9:31:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 07, 2017 9:31:58 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@29eff2ec')
+juin 07, 2017 9:32:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@76906b37')
+juin 07, 2017 9:32:09 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('CD88136730409AB8AE7155383F4D76C1')
+juin 07, 2017 10:38:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 07, 2017 10:38:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 07, 2017 10:38:03 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3df0779d')
+juin 07, 2017 10:38:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@35530ed')
+juin 07, 2017 10:38:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('DB45B856E13E1283985250CADDB27C48')
+juin 07, 2017 10:38:16 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@75e782b8')
+juin 07, 2017 10:46:15 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+75: 				String description = rs.getString(2);
+76: 				String rating = rs.getString(3);
+77: 				String client = rs.getString(4);
+78: 				%> <div class=<%out.print(x);%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+79: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+80: 				</p>
+81: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 78 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+75: 				String description = rs.getString(2);
+76: 				String rating = rs.getString(3);
+77: 				String client = rs.getString(4);
+78: 				%> <div class=<%out.print(x);%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+79: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+80: 				</p>
+81: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 07, 2017 10:55:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "" class="", AssignmentOperator expected after this token
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "w3", delete this token
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 76 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+79: 			%>
+
+
+Une erreur s'est produite à la ligne: 76 dans le fichier jsp: /jsp/city.jsp
+Syntax error on tokens, delete these tokens
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+79: 			%>
+
+
+Une erreur s'est produite à la ligne: 85 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+82: 		<script src="../js/cities.js"></script>
+83: 	<%
+84: 
+85: 		con.close();
+86: 	}
+87: 	
+88: 	catch(Exception e){
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "" class="", AssignmentOperator expected after this token
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "w3", delete this token
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 75 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+72: 		
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+
+
+Une erreur s'est produite à la ligne: 76 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+79: 			%>
+
+
+Une erreur s'est produite à la ligne: 76 dans le fichier jsp: /jsp/city.jsp
+Syntax error on tokens, delete these tokens
+73: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+74: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+75: 				<a href="http://localhost:8080/erasmus/jsp/citiesrc.jsp?search=<%out.print(idcity);" class="w3-button w3-teal">The opinions of our users</a></p>
+76: 
+77: 				</div> <%
+78: 			}
+79: 			%>
+
+
+Une erreur s'est produite à la ligne: 85 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+82: 		<script src="../js/cities.js"></script>
+83: 	<%
+84: 
+85: 		con.close();
+86: 	}
+87: 	
+88: 	catch(Exception e){
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 07, 2017 11:11:44 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+idcity cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+62: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+63: 				x++;
+64: 
+65: 			}
+
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+idcity cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+62: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+63: 				x++;
+64: 
+65: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+idcity cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+62: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+63: 				x++;
+64: 
+65: 			}
+
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+idcity cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+62: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+63: 				x++;
+64: 
+65: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 07, 2017 11:12:35 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 58 dans le fichier jsp: /jsp/citiesrc.jsp
+Sting cannot be resolved to a type
+55: 		<ul id="filter-links" class="filter-links">
+56: 			<%
+57: 			while(rs.next()){
+58: 				Sting idcity = rs.getString(1);
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 58 dans le fichier jsp: /jsp/citiesrc.jsp
+Sting cannot be resolved to a type
+55: 		<ul id="filter-links" class="filter-links">
+56: 			<%
+57: 			while(rs.next()){
+58: 				Sting idcity = rs.getString(1);
+59: 				String rating = rs.getString(2);
+60: 				int x = 1;
+61: 				// The value of my x is always 1, I want to do a ranking
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+>>>>>>> 2aed02df82f0e43fa0038d6ad4588189bd75341e

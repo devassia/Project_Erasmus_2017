@@ -1643,3 +1643,1325 @@ juin 06, 2017 5:51:47 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 06, 2017 5:51:47 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 06, 2017 6:09:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 06, 2017 6:09:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 06, 2017 6:09:12 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@784cf65c')
+juin 06, 2017 6:09:20 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@1f752c2f')
+juin 06, 2017 6:09:20 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@30e1f9b7')
+juin 06, 2017 6:09:21 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x++;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:09:46 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>--<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>--<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:10:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 59 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+56: 				String idcity = rs.getString(1);
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 				%> <li><a href="#"><%x%>-<%out.print(idcity);%></a></li><%
+60: 				x = x+1;
+61: 			}
+62: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:11:04 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Une erreur s'est produite à la ligne: 77 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(char) is undefined for the type citiesrc_jsp
+74: 				String rating = rs.getString(3);
+75: 				String client = rs.getString(4);
+76: 				int x = 1;
+77: 				%> <div class=<%x%>-<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+78: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+79: 				<a href="http://localhost:8080/erasmus/jsp/ok.jsp?mail=<%out.print(client);%>" class="w3-button w3-teal">View the profil of user</a></p>
+80: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:11:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('6A0081B1A273ACEAED4CC5CE02BD8487')
+juin 06, 2017 6:13:39 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token "+", invalid AssignmentOperator
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from void to String
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token "+", invalid AssignmentOperator
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from void to String
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x + out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:13:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method print(String) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method print(String) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><%x out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:14:01 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(String) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method write(String) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/citiesrc.jsp
+Type mismatch: cannot convert from int to String
+58: 				String x = "1";
+59: 
+60: 				%> <li><a href="#"><<%x%>%out.print(idcity);%></a></li><%
+61: 				x= Integer.parseInt(x) + 1;
+62: 
+63: 			}
+64: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 06, 2017 6:15:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method print(int) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a type
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable out
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+Syntax error on token ".", ; expected
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Une erreur s'est produite à la ligne: 60 dans le fichier jsp: /jsp/citiesrc.jsp
+The method print(int) is undefined for the type citiesrc_jsp
+57: 				String rating = rs.getString(2);
+58: 				int x = 1;
+59: 
+60: 				%> <li><a href="#"><%x%><%out.print(x);%>%out.print(idcity);%></a></li><%
+61: 				x++;
+62: 
+63: 			}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

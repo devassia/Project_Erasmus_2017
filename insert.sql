@@ -49,10 +49,10 @@ insert into university
 	values('vgtu','vilnius','vgtu@vgtu.lt','www.vgtu.lt','Vilniaus Gedimino technikos universitetas (Vilnius Gediminas Technical University), also known as VGTU, is a public university in Vilnius, Lithuania. Founded on 1 September 1956, the university was first a Vilnius-based evening division of the Kaunas Polytechnic Institute. It currently has 10 faculties, 14 research institutes, 33 research laboratories, and two research and four training centers. According to the QS World University Rankings, VGTU is in the top four percent of world universities. QS has given VGTU five stars in teaching, facilities, and innovation. Measuring student mobility in the ERASMUS exchange program, VGTU is the most popular university in Lithuania for foreign students.','https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/VGTU_seal.svg/1024px-VGTU_seal.svg.png');
 
 insert into university
-	values('sorbonne','paris','sorbonne@univ.fr','www.sorbonne.fr','it s a best university','https://www.univ-paris1.fr/fileadmin/templates/v2/images/logo-univ-paris1.fr.png');
+	values('sorbonne','paris','sorbonne@univ.fr','www.sorbonne.fr','Curabitur in malesuada magna. Integer mattis quam sit amet blandit dignissim. Aenean sit amet ultrices justo. Aliquam pulvinar urna ut diam cursus consequat. Aliquam eget malesuada risus. Nunc bibendum dolor eu dui mollis, ut varius turpis dapibus. Phasellus sodales tortor enim, non egestas leo facilisis et. Quisque auctor ac lectus eget pellentesque.','https://www.univ-paris1.fr/fileadmin/templates/v2/images/logo-univ-paris1.fr.png');
 
 insert into university
-	values('polytechnique','paris','polytechnique@univ.fr', 'www.polytechnique.fr' ,'https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
+	values('polytechnique','paris','polytechnique@univ.fr', 'www.polytechnique.fr' , 'Morbi eget nunc vitae sem rhoncus suscipit. Morbi quis lorem a erat euismod aliquam non in lorem. Curabitur enim enim, ultricies eu viverra eget, eleifend in dui. Quisque pulvinar, arcu vitae semper egestas, lectus nisl viverra lacus, vitae pretium nibh orci sit amet leo. Sed pretium erat eget lorem sodales efficitur. Duis viverra aliquet purus, vel tristique metus. Nulla sed consectetur odio, quis mollis ex. Donec vel turpis nec tellus cursus tincidunt. Quisque lectus quam, faucibus eu eleifend fringilla, consectetur ut dui. Maecenas ultricies, nisl eget volutpat rutrum, nulla leo sollicitudin velit, eget pretium ante turpis nec mauris. Ut rutrum ut mi eget suscipit. Nulla tortor nunc, cursus vitae metus eget, aliquet ornare eros. Aenean laoreet magna massa, id finibus ligula finibus a.','https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Logo_of_the_%C3%89cole_Polytechnique.svg/1200px-Logo_of_the_%C3%89cole_Polytechnique.svg.png');
 
 
 insert into subject
@@ -63,34 +63,34 @@ insert into subject
 
 
 insert into commentplace
-	values('a.devassine@orange.fr','Vilnius is a good city and we can visit the old town whitch is pretty.',4.4,'vilnius');
+	values('a.devassine@orange.fr','Morbi eget nunc vitae sem rhoncus suscipit. Morbi quis lorem a erat euismod aliquam non in lorem. Curabitur enim enim, ultricies eu viverra eget, eleifend in dui. Quisque pulvinar, arcu vitae semper egestas, lectus nisl viverra lacus, vitae pretium nibh orci sit amet leo. Sed pretium erat eget lorem sodales efficitur. Duis viverra aliquet purus, vel tristique metus. Nulla sed consectetur odio, quis mollis ex. Donec vel turpis nec tellus cursus tincidunt. Quisque lectus quam, faucibus eu eleifend fringilla, consectetur ut dui. Maecenas ultricies, nisl eget volutpat rutrum, nulla leo sollicitudin velit, eget pretium ante turpis nec mauris. Ut rutrum ut mi eget suscipit. Nulla tortor nunc, cursus vitae metus eget, aliquet ornare eros. Aenean laoreet magna massa, id finibus ligula finibus a.',4.4,'vilnius');
 
 insert into commentplace
 	values('test@test.test','For Catacombs tour - be there at least 40 min before opening. On day 2, I would leave Carnavalet Museum and Place de Vosges for day 5, after Montmartre and instead stroll to the left bank - Latin Quarter, Saint Germain and Luxembourg Garden. If you plan to go to top of Eiffel Tower there is still time to book advance tickets; otherwise it s more than 2 hr. queue.',4.9,'paris');
 
 insert into commentplace
-	values('a.devassine@orange.fr','blablablabla',3.7,'paris');
+	values('a.devassine@orange.fr','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et feugiat libero. Duis lorem arcu, ullamcorper et odio nec, interdum dapibus sem. Nulla faucibus viverra ante, eu sollicitudin diam efficitur nec. Donec eu nulla orci. Curabitur et sapien et lorem iaculis varius nec ac nulla. Nullam tempus dictum ornare. Sed gravida, leo sit amet convallis cursus, ipsum diam pulvinar sapien, id convallis felis ante in nibh. Fusce venenatis ex et enim venenatis, id ultrices libero consequat.',3.7,'paris');
 
 insert into commentplace
-	values('test@test.test', 'blablabla', 1.4, 'vilnius');
+	values('test@test.test', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et feugiat libero. Duis lorem arcu, ullamcorper et odio nec, interdum dapibus sem. Nulla faucibus viverra ante, eu sollicitudin diam efficitur nec. Donec eu nulla orci. Curabitur et sapien et lorem iaculis varius nec ac nulla. Nullam tempus dictum ornare. Sed gravida, leo sit amet convallis cursus, ipsum diam pulvinar sapien, id convallis felis ante in nibh. Fusce venenatis ex et enim venenatis, id ultrices libero consequat.', 3.4, 'vilnius');
 
 insert into commentplace
-	values('a.devassine@orange.fr', 'blabla', 2,'amsterdam');
+	values('a.devassine@orange.fr', 'Suspendisse a augue nec nisl tempus hendrerit. Donec in ultrices eros, eget ultricies massa. Integer mattis consequat accumsan. Nulla elit elit, pharetra vitae aliquet ut, mattis vitae nibh. Pellentesque sagittis lorem sit amet sagittis mollis. Maecenas fringilla luctus turpis non maximus. Vestibulum pulvinar nunc mollis magna vehicula efficitur. Suspendisse dapibus, erat et aliquam mollis, lorem urna posuere magna, eget commodo orci quam et diam. Aenean dapibus volutpat ligula, nec dictum diam viverra ac.', 2,'amsterdam');
 
 insert into commentplace
-	values('a.devassine@orange.fr', 'blablabla', 4.7, 'athens');
+	values('a.devassine@orange.fr', 'Suspendisse a augue nec nisl tempus hendrerit. Donec in ultrices eros, eget ultricies massa. Integer mattis consequat accumsan. Nulla elit elit, pharetra vitae aliquet ut, mattis vitae nibh. Pellentesque sagittis lorem sit amet sagittis mollis. Maecenas fringilla luctus turpis non maximus. Vestibulum pulvinar nunc mollis magna vehicula efficitur. Suspendisse dapibus, erat et aliquam mollis, lorem urna posuere magna, eget commodo orci quam et diam. Aenean dapibus volutpat ligula, nec dictum diam viverra ac.', 2.7, 'athens');
 
 insert into commentplace
-	values ('test@test.test', 'gfgfggdfgd', 4.6, 'amsterdam');
+	values ('test@test.test', 'Morbi ornare enim odio, ut pulvinar dui mattis ut. Praesent tristique at neque sit amet mollis. Proin porta erat a felis imperdiet ullamcorper. Nullam viverra ut sapien quis cursus. Phasellus eleifend, mi sit amet hendrerit dapibus, nisl ante ullamcorper eros, convallis rhoncus ante elit vel elit. Cras aliquet imperdiet ante ac pretium. Pellentesque imperdiet eget erat eget eleifend. Vivamus eu diam sollicitudin, maximus dui sit amet, finibus turpis. Morbi justo libero, rhoncus eu viverra sed, consectetur id enim. Curabitur ultricies tempor tincidunt. Duis porttitor congue auctor. Fusce mattis pretium sollicitudin. Nulla et accumsan urna.', 4.6, 'amsterdam');
 
 insert into commentplace
-	values ('test@test.test', 'jhjhjhjh', 3, 'athens');
+	values ('test@test.test', 'Morbi ornare enim odio, ut pulvinar dui mattis ut. Praesent tristique at neque sit amet mollis. Proin porta erat a felis imperdiet ullamcorper. Nullam viverra ut sapien quis cursus. Phasellus eleifend, mi sit amet hendrerit dapibus, nisl ante ullamcorper eros, convallis rhoncus ante elit vel elit. Cras aliquet imperdiet ante ac pretium. Pellentesque imperdiet eget erat eget eleifend. Vivamus eu diam sollicitudin, maximus dui sit amet, finibus turpis. Morbi justo libero, rhoncus eu viverra sed, consectetur id enim. Curabitur ultricies tempor tincidunt. Duis porttitor congue auctor. Fusce mattis pretium sollicitudin. Nulla et accumsan urna.', 3, 'athens');
 
 insert into commentplace
-	values('test@test.test', 'so good', 1.5, 'barcelona');
+	values('test@test.test', 'Curabitur in malesuada magna. Integer mattis quam sit amet blandit dignissim. Aenean sit amet ultrices justo. Aliquam pulvinar urna ut diam cursus consequat. Aliquam eget malesuada risus. Nunc bibendum dolor eu dui mollis, ut varius turpis dapibus. Phasellus sodales tortor enim, non egestas leo facilisis et. Quisque auctor ac lectus eget pellentesque.', 1.5, 'barcelona');
 
 insert into commentplace
-	values ('a.devassine@orange.fr', 'rrtrtrt', 4.6, 'barcelona');
+	values ('a.devassine@orange.fr', 'Curabitur in malesuada magna. Integer mattis quam sit amet blandit dignissim. Aenean sit amet ultrices justo. Aliquam pulvinar urna ut diam cursus consequat. Aliquam eget malesuada risus. Nunc bibendum dolor eu dui mollis, ut varius turpis dapibus. Phasellus sodales tortor enim, non egestas leo facilisis et. Quisque auctor ac lectus eget pellentesque.', 4.6, 'barcelona');
 
 
 insert into job

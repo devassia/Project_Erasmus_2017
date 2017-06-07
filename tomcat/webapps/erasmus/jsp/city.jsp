@@ -12,15 +12,15 @@
 			<li><a href="city.jsp">Cities</a>
 				<ul>
 					<li><a href="city.jsp">Find your City</a></li>
-					<li><a href="citiesrc.jsp">City Ranking</a></li>
+					<li><a href="citiesrc.jsp?search=all">City Ranking</a></li>
 				</ul>
 			</li>
-			<li><a href="university.jsp">Universities</a></li>
-			<li><a href="#">Accomodation</a></li>
-			<li><a href="#">Student/Blog</a></li>
-			<li><a href="#">Jobs</a></li>
-			<li><a href="#">About EraStud</a></li>
-			<li><a href="#">Sign In/Up</a></li>
+			<li><a href="university.jsp">Universities</a>
+            <li><a href="https://www.booking.com/">Accomodation</a></li>
+            <li><a href="studentblog.jsp">Student/Blog</a></li>
+           	<li><a href="job.jsp">Jobs</a></li>
+            <li><a href="about.html">About EraStud</a></li>
+            <li><a href="connection.jsp">Sign In/Up</a></li>
 		</ul>
 	</div>
 	<br>
@@ -54,7 +54,7 @@
 			<%
 			while(rs.next()){
 				String idcity = rs.getString(1);
-				%> <li><a href="#"><%out.print(idcity);%></a></li> <%
+				%> <li><a href=""><%out.print(idcity);%></a></li> <%
 			}
 
 			// list and cities with description
@@ -72,7 +72,7 @@
 		
 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
-				<a href="#" class="w3-button w3-teal">The opinions of our users</a></p>
+				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
 
 				</div> <%
 			}
