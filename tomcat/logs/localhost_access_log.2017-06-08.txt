@@ -1,0 +1,4 @@
+127.0.0.1 - - [08/Jun/2017:00:00:25 +0300] "GET /erasmus/jsp/citiesrc.jsp?search=all HTTP/1.1" 200 9400
+127.0.0.1 - - [08/Jun/2017:00:00:32 +0300] "GET /erasmus/jsp/citiesrc.jsp?search=all HTTP/1.1" 200 9360
+127.0.0.1 - - [08/Jun/2017:00:01:12 +0300] "GET /erasmus/jsp/citiesrc.jsp?search=all HTTP/1.1" 200 9350
+127.0.0.1 - - [08/Jun/2017:00:01:12 +0300] "GET /favicon.ico HTTP/1.1" 200 21630
