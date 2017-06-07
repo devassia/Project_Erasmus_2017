@@ -10,13 +10,21 @@
   <div class="navbar">
     <ul>
       <li><a class="active"  href="../index.html">EraStud</a></li>
-      <li><a href="">Cities</a></li>
-      <li><a href="#">Universities</a> </li>
-      <li><a href="#">Accomodation</a></li>
-      <li><a href="#">Student/Blog</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">About EraStud</a></li>
-      <li><a href="#">Sign In/Up</a></li>
+      <li><a href="city.jsp">Cities</a>
+        <ul>
+          <li><a href="city.jsp">Find your City</a></li>
+          <li><a href="citiesrc.jsp">City Ranking</a></li>
+        </ul>
+      </li>
+      <li><a href="university.jsp">Universities</a>
+      </li>
+      <li><a href="https://www.booking.com/index.fr.html?aid=376366;label=fr-51aYADzKCvHZ21Orv3nXsAS193330406601%3Apl%3Ata%3Ap1%3Ap21.279.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-65526620%3Alp9062284%3Ali%3Adec%3Adm;sid=f852e761b1b63eceb745402b76efadce;keep_landing=1;redirected=1;source=country&gclid=CLOB5qyxnNQCFZQy0wodqosCIQ&">Accomodation</a></li>
+      <li><a href="studentblog.jsp">Student/Blog</a></li>
+      <li><a href="job.jsp">Jobs</a></li>
+      <li><a href="../about.html">About EraStud</a></li>
+      <li><a href="connection.jsp">Sign In/Up</a></li>
+
+
 
     </ul>
   </div>

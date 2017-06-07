@@ -1,0 +1,16 @@
+juin 08, 2017 12:01:33 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-apr-8080"]
+juin 08, 2017 12:01:33 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-apr-8009"]
+juin 08, 2017 12:01:33 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+juin 08, 2017 12:01:33 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/erasmus] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+juin 08, 2017 12:01:34 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-apr-8080"]
+juin 08, 2017 12:01:34 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-apr-8009"]
+juin 08, 2017 12:01:34 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-apr-8080"]
+juin 08, 2017 12:01:34 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-apr-8009"]
