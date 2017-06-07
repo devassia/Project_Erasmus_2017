@@ -30,16 +30,16 @@ insert into city
 
 
 insert into client
-	values('Devassine','Alexandre','France','a.devassine@orange.fr','alex09011996');
+	values('Devassine','Alexandre','France','a.devassine@orange.fr','alex09011996','https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png');
 
 insert into client
-	values('Gerard','Cyril','France','g.gerard@test.test','test');
+	values('Gerard','Cyril','France','g.gerard@test.test','test','http://www.nordinfo.com/wp-content/uploads/2017/02/2013-12-13-11-27-14-Colvert_Norbert-Nagel_Wikimedia.jpg');
 
 insert into client
-	values('test','test','test','test@test.test','test');
+	values('test','test','test','test@test.test','test','https://lecrabeinfo.net/app/uploads/2013/03/connaitre-composants-ordinateur-configuration-pc-dcf0bb.png');
 
 insert into client
-	values('test','test','test','retest@test.test','test');
+	values('test','test','test','retest@test.test','test','https://openclipart.org/download/215224/rs_caution_geek_man_with_text.svg');
 
 
 insert into university
