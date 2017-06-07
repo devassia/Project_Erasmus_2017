@@ -12,15 +12,15 @@
 			<li><a href="city.jsp">Cities</a>
 				<ul>
 					<li><a href="city.jsp">Find your City</a></li>
-					<li><a href="#">City Ranking</a></li>
+					<li><a href="citiesrc.jsp?search=all">City Ranking</a></li>
 				</ul>
 			</li>
-			<li><a href="university.jsp">Universities</a></li>
-			<li><a href="#">Accomodation</a></li>
-			<li><a href="#">Student/Blog</a></li>
-			<li><a href="#">Jobs</a></li>
-			<li><a href="#">About EraStud</a></li>
-			<li><a href="#">Sign In/Up</a></li>
+			<li><a href="university.jsp">Universities</a>
+            <li><a href="https://www.booking.com/">Accomodation</a></li>
+            <li><a href="studentblog.jsp">Student/Blog</a></li>
+           	<li><a href="job.jsp">Jobs</a></li>
+            <li><a href="about.html">About EraStud</a></li>
+            <li><a href="connection.jsp">Sign In/Up</a></li>
 		</ul>
 	</div>
 	<br>
@@ -44,6 +44,8 @@
 		Connection con=DriverManager.getConnection(url,"postgres","root");
 
 		Statement stmt = con.createStatement();
+		String search = request.getParameter("search");
+
 
 		// list of cities
 		String query ="select city, round(avg(rating),2) from commentplace group by city order by avg(rating) desc;";
@@ -57,13 +59,19 @@
 				String rating = rs.getString(2);
 				int x = 1;
 				// The value of my x is always 1, I want to do a ranking
-				%> <li><a href="#"><%out.print(idcity);%></a></li><%
+				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
 				x++;
 
 			}
 
 			// list and cities with description
-			query = "select city, comment, rating, email from commentplace group by city,comment, rating, email order by avg(rating) desc;";
+			if(search.equals("all")){
+          query="select city, comment, rating, email from commentplace group by city,comment, rating, email order by avg(rating) desc;";
+        }
+        else {
+       		query = "select city, comment, rating, email from commentplace where city ='"+search+"' group by city,comment, rating, email order by avg(rating) desc;";
+      	}
+			
 			rs = stmt.executeQuery(query);
 			%> 
 		</ul>
@@ -75,11 +83,13 @@
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
+				int x = 1;
 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
-				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
 				</p>
 
 				</div> <%
+				x++;
 			}
 			%>
 		</div>
