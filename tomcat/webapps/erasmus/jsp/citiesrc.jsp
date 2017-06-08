@@ -84,7 +84,7 @@
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
 				int x = 1;
-				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%> </h1> Rating :  <%out.print(rating);%> <br> <%out.print(description);%> <br> <i> Share by <%out.print(client);%></i> <br> 
+				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
 				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
 				</p>
 
