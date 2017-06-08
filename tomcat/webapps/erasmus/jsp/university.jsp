@@ -15,11 +15,11 @@
 					<li><a href="citiesrc.jsp?search=all">City Ranking</a></li>
 				</ul>
 			</li>
-			<li><a href="jsp/university.jsp">Universities</a>
+			<li><a href="university.jsp">Universities</a>
             <li><a href="https://www.booking.com/">Accomodation</a></li>
             <li><a href="studentblog.jsp">Student/Blog</a></li>
            	<li><a href="job.jsp">Jobs</a></li>
-            <li><a href="about.html">About EraStud</a></li>
+            <li><a href="../about.html">About EraStud</a></li>
             <li><a href="connection.jsp">Sign In/Up</a></li>
 		</ul>
 	</div>
