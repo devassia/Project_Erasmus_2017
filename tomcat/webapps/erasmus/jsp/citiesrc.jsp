@@ -54,12 +54,12 @@
 		%>
 		<ul id="filter-links" class="filter-links">
 			<%
+			int x = 1;
 			while(rs.next()){
 				String idcity = rs.getString(1);
 				String rating = rs.getString(2);
-				int x = 1;
 				// The value of my x is always 1, I want to do a ranking
-				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(x);%><%out.print(idcity);%></a></li><%
 				x++;
 
 			}
@@ -78,12 +78,12 @@
 
 		<div class="filter-sections">
 			<%
+			x = 1;
 			while(rs.next()){
 				String idcity = rs.getString(1);
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
-				int x = 1;
 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
 				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
 				</p>
@@ -94,7 +94,7 @@
 			%>
 		</div>
 
-		<script src="../js/citiesrc.js"></script>
+		<script src="../js/cities.js"></script>
 	<%
 
 		con.close();

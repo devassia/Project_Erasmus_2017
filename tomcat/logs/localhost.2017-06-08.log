@@ -30,3 +30,87 @@ juin 08, 2017 1:24:21 PM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 08, 2017 1:24:21 PM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+juin 08, 2017 2:52:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 08, 2017 2:52:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 08, 2017 2:52:34 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@59f046ea')
+juin 08, 2017 2:52:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@6ccb97ea')
+juin 08, 2017 2:52:57 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('2F07E38E96E453A65D7F77F850D46F89')
+juin 08, 2017 2:53:35 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('87A1AFB3F69988F3070CBB564E0991DA')
+juin 08, 2017 2:53:35 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('EC2313DF36ADB3A0E9F72DF6D879DCB6')
+juin 08, 2017 2:56:43 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@6685179b')
+juin 08, 2017 3:29:12 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 86 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable x
+83: 				String description = rs.getString(2);
+84: 				String rating = rs.getString(3);
+85: 				String client = rs.getString(4);
+86: 				int x = 1;
+87: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
+88: 				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+89: 				</p>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 86 dans le fichier jsp: /jsp/citiesrc.jsp
+Duplicate local variable x
+83: 				String description = rs.getString(2);
+84: 				String rating = rs.getString(3);
+85: 				String client = rs.getString(4);
+86: 				int x = 1;
+87: 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
+88: 				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+89: 				</p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 08, 2017 4:23:01 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('2F07E38E96E453A65D7F77F850D46F89')
+juin 08, 2017 4:24:15 PM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextDestroyed()
+juin 08, 2017 4:24:15 PM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextDestroyed()
