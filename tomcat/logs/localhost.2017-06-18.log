@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 juin 18, 2017 3:58:13 AM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextInitialized()
 juin 18, 2017 3:58:13 AM org.apache.catalina.core.ApplicationContext log
@@ -50,3 +51,2883 @@ juin 18, 2017 8:18:48 AM org.apache.catalina.core.ApplicationContext log
 INFOS: SessionListener: contextDestroyed()
 juin 18, 2017 8:18:48 AM org.apache.catalina.core.ApplicationContext log
 INFOS: ContextListener: contextDestroyed()
+=======
+juin 18, 2017 3:56:50 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: contextInitialized()
+juin 18, 2017 3:56:50 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: contextInitialized()
+juin 18, 2017 3:56:51 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@79b1c159')
+juin 18, 2017 3:56:52 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@45522178')
+juin 18, 2017 3:56:52 AM org.apache.catalina.core.ApplicationContext log
+INFOS: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@276eb175')
+juin 18, 2017 3:56:54 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 	<%
+92: 
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+97:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 	<%
+92: 
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+97:     	out.println(e.getMessage());
+
+
+An error occurred at line: [234] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 	<%
+92: 
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+97:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 	<%
+92: 
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+97:     	out.println(e.getMessage());
+
+
+An error occurred at line: [234] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 3:57:51 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('87A1AFB3F69988F3070CBB564E0991DA')
+juin 18, 2017 3:57:51 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('EC2313DF36ADB3A0E9F72DF6D879DCB6')
+juin 18, 2017 3:58:30 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 3:59:08 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+93: 
+94: 		con.close();
+95: 	}
+96: }
+97: 	
+98: 	catch(Exception e){
+99:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+93: 
+94: 		con.close();
+95: 	}
+96: }
+97: 	
+98: 	catch(Exception e){
+99:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 3:59:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 
+94: 		con.close();
+95: 	
+96: 	
+97: 	catch(Exception e){
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 3:59:24 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [61] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+92: 	<%
+93: 
+94: 		con.close();
+95: 	}
+96: 	
+97: 	catch(Exception e){
+98:     	out.println(e.getMessage());
+
+
+An error occurred at line: [235] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:01:16 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+Syntax error on tokens, delete these tokens
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+90: 
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+
+
+An error occurred at line: [232] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [233] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+Syntax error on tokens, delete these tokens
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+String literal is not properly closed by a double-quote
+80: 				<tr> <%/*
+81: 				while(rs2.next()){
+82: 					String name = rs.getString(1);
+83: 					%>
+84: 					<td> name </td>
+85: 				}
+86: 			}
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+90: 
+91: 		<script src="../js/cities.js"></script>
+92: 	<%
+93: 		con.close();
+94: 	}
+95: 	
+96: 	catch(Exception e){
+
+
+An error occurred at line: [232] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [233] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:02:32 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('465B98BF2CECC4A2F61E33C0E26B8694')
+juin 18, 2017 4:03:13 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 81 dans le fichier jsp: /jsp/city.jsp
+Duplicate local variable query2
+78: 
+79: 				</div> 
+80: 				<tr> <%
+81: 				String query2 = "select name from university where city =" + idcity+ ";";
+82: 				ResultSet rs2 = stmt.executeQuery(query2);
+83: 				while(rs2.next()){
+84: 					String name = rs.getString(1);
+
+
+Une erreur s'est produite à la ligne: 82 dans le fichier jsp: /jsp/city.jsp
+Duplicate local variable rs2
+79: 				</div> 
+80: 				<tr> <%
+81: 				String query2 = "select name from university where city =" + idcity+ ";";
+82: 				ResultSet rs2 = stmt.executeQuery(query2);
+83: 				while(rs2.next()){
+84: 					String name = rs.getString(1);
+85: 					%>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 81 dans le fichier jsp: /jsp/city.jsp
+Duplicate local variable query2
+78: 
+79: 				</div> 
+80: 				<tr> <%
+81: 				String query2 = "select name from university where city =" + idcity+ ";";
+82: 				ResultSet rs2 = stmt.executeQuery(query2);
+83: 				while(rs2.next()){
+84: 					String name = rs.getString(1);
+
+
+Une erreur s'est produite à la ligne: 82 dans le fichier jsp: /jsp/city.jsp
+Duplicate local variable rs2
+79: 				</div> 
+80: 				<tr> <%
+81: 				String query2 = "select name from university where city =" + idcity+ ";";
+82: 				ResultSet rs2 = stmt.executeQuery(query2);
+83: 				while(rs2.next()){
+84: 					String name = rs.getString(1);
+85: 					%>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:07:04 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+80: 		<script src="../js/cities.js"></script>
+81: 	<%
+82: 		con.close();
+83: 	}
+84: 	
+85: 	catch(Exception e){
+86:     	out.println(e.getMessage());
+
+
+An error occurred at line: [220] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [221] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 83 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+80: 		<script src="../js/cities.js"></script>
+81: 	<%
+82: 		con.close();
+83: 	}
+84: 	
+85: 	catch(Exception e){
+86:     	out.println(e.getMessage());
+
+
+An error occurred at line: [220] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [221] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:13:28 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:13:32 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:13:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/citiesrc.jsp
+x cannot be resolved to a variable
+59: 				String rating = rs.getString(2);
+60: 				// The value of my x is always 1, I want to do a ranking
+61: 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(idcity);%></a></li><%
+62: 				x++;
+63: 
+64: 			}
+65: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:31:47 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+61: 			query = "select idcity, description, img from city order by idcity asc;";
+62: 			rs = stmt.executeQuery(query);
+63: 
+64: 			query2 = "select name from university order by name asc;";
+65: 			rs2 = stmt.executeQuery(query);
+66: 
+67: 			%> 
+
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+62: 			rs = stmt.executeQuery(query);
+63: 
+64: 			query2 = "select name from university order by name asc;";
+65: 			rs2 = stmt.executeQuery(query);
+66: 
+67: 			%> 
+68: 		</ul>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+61: 			query = "select idcity, description, img from city order by idcity asc;";
+62: 			rs = stmt.executeQuery(query);
+63: 
+64: 			query2 = "select name from university order by name asc;";
+65: 			rs2 = stmt.executeQuery(query);
+66: 
+67: 			%> 
+
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+62: 			rs = stmt.executeQuery(query);
+63: 
+64: 			query2 = "select name from university order by name asc;";
+65: 			rs2 = stmt.executeQuery(query);
+66: 
+67: 			%> 
+68: 		</ul>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:36:46 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 46 dans le fichier jsp: /jsp/city.jsp
+Stetement cannot be resolved to a type
+43: 		String url = "jdbc:postgresql://localhost/postgres";
+44: 		Connection con=DriverManager.getConnection(url,"postgres","root");
+45: 
+46: 		Stetement stmt2 = con.createStatement();
+47: 		Statement stmt = con.createStatement();
+48: 
+49: 		// list of cities
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 46 dans le fichier jsp: /jsp/city.jsp
+Stetement cannot be resolved to a type
+43: 		String url = "jdbc:postgresql://localhost/postgres";
+44: 		Connection con=DriverManager.getConnection(url,"postgres","root");
+45: 
+46: 		Stetement stmt2 = con.createStatement();
+47: 		Statement stmt = con.createStatement();
+48: 
+49: 		// list of cities
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:37:08 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 47 dans le fichier jsp: /jsp/city.jsp
+Stetement cannot be resolved to a type
+44: 		Connection con=DriverManager.getConnection(url,"postgres","root");
+45: 
+46: 		Connection con2 =DriverManager.getConnection(url,"postgres","root");
+47: 		Stetement stmt2 = con.createStatement();
+48: 		Statement stmt = con.createStatement();
+49: 
+50: 		// list of cities
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 47 dans le fichier jsp: /jsp/city.jsp
+Stetement cannot be resolved to a type
+44: 		Connection con=DriverManager.getConnection(url,"postgres","root");
+45: 
+46: 		Connection con2 =DriverManager.getConnection(url,"postgres","root");
+47: 		Stetement stmt2 = con.createStatement();
+48: 		Statement stmt = con.createStatement();
+49: 
+50: 		// list of cities
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:46:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" +<%out.print(idcity);%>+ "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "Finally" to complete TryStatement
+93: 				%>
+94: 				
+95: 				</div> <%
+96: 			}
+97: 
+98: 			%>
+99: 		</div>
+
+
+An error occurred at line: [234] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [237] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [237] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [239] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [240] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [242] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [245] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [245] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [248] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [249] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" +<%out.print(idcity);%>+ "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "Finally" to complete TryStatement
+93: 				%>
+94: 				
+95: 				</div> <%
+96: 			}
+97: 
+98: 			%>
+99: 		</div>
+
+
+An error occurred at line: [234] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [236] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [237] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [237] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [239] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [240] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [242] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [245] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [245] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [248] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [249] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 4:47:10 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+The operator + is undefined for the argument type(s) String, void
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" + out.print(idcity); + "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "+", ++ expected
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" + out.print(idcity); + "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+The operator + is undefined for the argument type(s) String, void
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" + out.print(idcity); + "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 84 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "+", ++ expected
+81: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+82: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+83: 				<%
+84: 				String query2 = "select name from university where city='" + out.print(idcity); + "''  order by name asc;";
+85: 				ResultSet rs2 = stmt2.executeQuery(query2);
+86: 				while(rs2.next()){
+87: 					String name = rs2.getString(1);
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:01:32 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token(s), misplaced construct(s)
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ">" to complete ReferenceType1
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+a cannot be resolved to a type
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Constructor call must be the first statement in a constructor
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "class", delete this token
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+
+
+Une erreur s'est produite à la ligne: 66 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+69: 				String idcity = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 66 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ";" to complete Statement
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+69: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token(s), misplaced construct(s)
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ">" to complete ReferenceType1
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+a cannot be resolved to a type
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Constructor call must be the first statement in a constructor
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "class", delete this token
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 64 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+61: 		String query = "select country from city order by country asc;";
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+62: 		ResultSet rs = stmt.executeQuery(query);
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+
+
+Une erreur s'est produite à la ligne: 66 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+69: 				String idcity = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 66 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ";" to complete Statement
+63: 
+64: 		<li><a href="#" class="header">Lituanie</a></li>
+65: 			<%
+66: 			String query2 ="select idcity from city order by idcity asc;";
+67: 			ResultSet rs2 = stmt.executeQuery(query);
+68: 			while(rs.next()){
+69: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:02:07 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token(s), misplaced construct(s)
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ">" to complete ReferenceType1
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+a cannot be resolved to a type
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Constructor call must be the first statement in a constructor
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "class", delete this token
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+66: 				String idcity = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ";" to complete Statement
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+66: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token(s), misplaced construct(s)
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ">" to complete ReferenceType1
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+a cannot be resolved to a type
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Constructor call must be the first statement in a constructor
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "class", delete this token
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "/", delete this token
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 61 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+58: 		String query = "select country from city order by country asc;";
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+
+
+Une erreur s'est produite à la ligne: 62 dans le fichier jsp: /jsp/city.jsp
+Syntax error on token "<", invalid Expression
+59: 		ResultSet rs = stmt.executeQuery(query);
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+66: 				String idcity = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 63 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert ";" to complete Statement
+60: 
+61: 		<li><a href="#" class="header">Lituanie</a></li>
+62: 			<%
+63: 			String query2 ="select idcity from city order by idcity asc;";
+64: 			ResultSet rs2 = stmt.executeQuery(query);
+65: 			while(rs.next()){
+66: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:02:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+stmt3 cannot be resolved
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt3.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+stmt3 cannot be resolved
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt3.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:05:19 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 122 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+119: 
+120: 		con.close();
+121: 		con2.close();
+122: 	}
+123: 	
+124: 	catch(Exception e){
+125:     	out.println(e.getMessage());
+
+
+An error occurred at line: [271] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [272] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 122 dans le fichier jsp: /jsp/city.jsp
+Syntax error, insert "}" to complete Block
+119: 
+120: 		con.close();
+121: 		con2.close();
+122: 	}
+123: 	
+124: 	catch(Exception e){
+125:     	out.println(e.getMessage());
+
+
+An error occurred at line: [271] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [272] in the generated java file: [C:\Users\confo\Documents\Projet\Project_Erasmus_2017\tomcat\work\Catalina\localhost\erasmus\org\apache\jsp\jsp\city_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:09:24 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+country cannot be resolved to a variable
+62: 			%><li><a href="#" class="header"><%out.print(country);%></a></li> <%
+63: 
+64: 		}
+65: 			String query2 ="select idcity from city where country='" + country + "'  order by idcity asc;";
+66: 			ResultSet rs2 = stmt.executeQuery(query);
+67: 			while(rs2.next()){
+68: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 65 dans le fichier jsp: /jsp/city.jsp
+country cannot be resolved to a variable
+62: 			%><li><a href="#" class="header"><%out.print(country);%></a></li> <%
+63: 
+64: 		}
+65: 			String query2 ="select idcity from city where country='" + country + "'  order by idcity asc;";
+66: 			ResultSet rs2 = stmt.executeQuery(query);
+67: 			while(rs2.next()){
+68: 				String idcity = rs2.getString(1);
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:09:44 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:10:20 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:10:42 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 96 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+93: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 97 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+94: 				<h3> List of University </h3>
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+
+
+Une erreur s'est produite à la ligne: 98 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+95: 				<%
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+
+
+Une erreur s'est produite à la ligne: 99 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+96: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+97: 				rs2 = stmt2.executeQuery(query2);
+98: 				while(rs2.next()){
+99: 					String name = rs2.getString(1);
+100: 
+101: 					%>
+102: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:12:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 92 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+89: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+97: 					%>
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+97: 					%>
+98: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 92 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+89: 				<a href="citiesrc.jsp?search=<%out.print(idcity);%>" class="w3-button w3-teal">The opinions of our users</a></p>
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved to a variable
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+
+
+Une erreur s'est produite à la ligne: 93 dans le fichier jsp: /jsp/city.jsp
+query2 cannot be resolved to a variable
+90: 				<h3> List of University </h3>
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+
+
+Une erreur s'est produite à la ligne: 94 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+91: 				<%
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+97: 					%>
+
+
+Une erreur s'est produite à la ligne: 95 dans le fichier jsp: /jsp/city.jsp
+rs2 cannot be resolved
+92: 				query2 = "select name from university where city='" + idcity + "'  order by name asc;";
+93: 				rs2 = stmt2.executeQuery(query2);
+94: 				while(rs2.next()){
+95: 					String name = rs2.getString(1);
+96: 
+97: 					%>
+98: 					<p> - <%out.print(name);%> </p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 5:18:59 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/erasmus] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 90 dans le fichier jsp: /jsp/city.jsp
+Strint cannot be resolved to a type
+87: 				String idcity = rs.getString(1);
+88: 				String description = rs.getString(2);
+89: 				String img = rs.getString(3);
+90: 				Strint country = rs.getString(4);
+91: 		
+92: 				%> <div class=<%out.print(idcity);%><%out.print(country);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+93: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 90 dans le fichier jsp: /jsp/city.jsp
+Strint cannot be resolved to a type
+87: 				String idcity = rs.getString(1);
+88: 				String description = rs.getString(2);
+89: 				String img = rs.getString(3);
+90: 				Strint country = rs.getString(4);
+91: 		
+92: 				%> <div class=<%out.print(idcity);%><%out.print(country);%> > <h1> <%out.print(idcity);%> </h1> <br> <img style="width: 500px; height: 300px" src=<%out.print(img);%>/> <br><br> <%out.print(description);%> <br> 
+93: 				<p><a href="https://en.wikipedia.org/wiki/<%out.print(idcity);%>" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+juin 18, 2017 6:24:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionDestroyed('465B98BF2CECC4A2F61E33C0E26B8694')
+juin 18, 2017 7:21:46 AM org.apache.catalina.core.ApplicationContext log
+INFOS: SessionListener: sessionCreated('A423442FC6F9330C3B22A3014A37795F')
+>>>>>>> ebdf1898251f49c54f1e5372b76c8a29d3437b02

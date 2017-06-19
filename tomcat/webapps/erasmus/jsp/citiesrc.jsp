@@ -44,7 +44,6 @@
 		Connection con=DriverManager.getConnection(url,"postgres","root");
 
 		Statement stmt = con.createStatement();
-		String search = request.getParameter("search");
 
 
 		// list of cities
@@ -57,22 +56,21 @@
 			int x = 1;
 			while(rs.next()){
 				String idcity = rs.getString(1);
+<<<<<<< HEAD
 				String rating = rs.getString(2);
 				// The value of my x is always 1, I want to do a ranking
 				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(x);%><%out.print(idcity);%></a></li><%
 				x++;
 
+=======
+				%> <li><a href=""><%out.print(idcity);%></a></li> <%
+>>>>>>> ebdf1898251f49c54f1e5372b76c8a29d3437b02
 			}
 
 			// list and cities with description
-			if(search.equals("all")){
-          query="select city, comment, rating, email from commentplace group by city,comment, rating, email order by avg(rating) desc;";
-        }
-        else {
-       		query = "select city, comment, rating, email from commentplace where city ='"+search+"' group by city,comment, rating, email order by avg(rating) desc;";
-      	}
 			
-			rs = stmt.executeQuery(query);
+        query="select city, comment, rating, email from commentplace group by city,comment, rating, email order by avg(rating) desc;";
+		rs = stmt.executeQuery(query);
 			%> 
 		</ul>
 
@@ -84,12 +82,16 @@
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
+<<<<<<< HEAD
 				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
+=======
+
+				%> <div class=<%out.print(idcity);%> >  <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
+>>>>>>> ebdf1898251f49c54f1e5372b76c8a29d3437b02
 				<p><a href="city.jsp" class="w3-button w3-teal">More information about <%out.print(idcity);%></a>
 				</p>
 
 				</div> <%
-				x++;
 			}
 			%>
 		</div>
