@@ -81,8 +81,6 @@
   <input type="range" id="points" style="height: 50px;width: 200px" value="50" min="0" max="100">
 </form>
 
-
-
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >URL's pic :</label>
     <div class="col-sm-10">
