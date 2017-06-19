@@ -35,9 +35,10 @@
 	<%@ page import="javax.servlet.*" %>
 	<%@ page import="javax.servlet.http.*" %>
 	<%@ page import="javax.servlet.annotation.WebServlet" %>
-	<%@ page import="java.sql.*" %>
+	<%@ page import="java.sql.*"  %>
 
 	<%
+
 	try{
 		Class.forName("org.postgresql.Driver");  
 		String url = "jdbc:postgresql://localhost/postgres";
@@ -53,18 +54,11 @@
 		%>
 		<ul id="filter-links" class="filter-links">
 			<%
-			int x = 1;
 			while(rs.next()){
 				String idcity = rs.getString(1);
 
 				String rating = rs.getString(2);
-				// The value of my x is always 1, I want to do a ranking
-				%> <li><a href="citiesrc.jsp?search=<%out.print(idcity);%>"><%out.print(x);%><%out.print(idcity);%></a></li><%
-				x++;
-
-
-				%> <li><a href=""><%out.print(idcity);%></a></li> <%
-
+				%> <li><a href="#"><%out.print(idcity);%></a></li> <%
 			}
 
 			// list and cities with description
@@ -76,14 +70,11 @@
 
 		<div class="filter-sections">
 			<%
-			x = 1;
 			while(rs.next()){
 				String idcity = rs.getString(1);
 				String description = rs.getString(2);
 				String rating = rs.getString(3);
 				String client = rs.getString(4);
-
-				%> <div class=<%out.print(idcity);%> > <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
 
 
 				%> <div class=<%out.print(idcity);%> >  <h1> <%out.print(idcity);%></h1> <p style="color:black " >Rating :  <%out.print(rating);%> </p> <%out.print(description);%> <br> Share by <i style="color: blue" ><%out.print(client);%></i> <br> 
@@ -95,7 +86,6 @@
 			}
 			%>
 		</div>
-
 		<script src="../js/cities.js"></script>
 	<%
 
