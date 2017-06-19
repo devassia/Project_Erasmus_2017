@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/ui.css"/>
 
+
   <div class="navbar">
     <ul>
       <li><a class="active"  href="../index.html">EraStud</a></li>
@@ -31,16 +32,9 @@
 
 <body>
 
-<h4><i>You can Propose a student job but you need to add some informations about it.</i></h4>
+<h4><i>You can Comment a place here.</i></h4>
 <br><br>
-   <form class="form-horizontal" action=create_job.jsp>
-
-  <div class="form-group" >
-    <label class="control-label col-sm-2" for="text" >Title :</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 50px; width: 400px" id="title"  name="title" placeholder="Enter the title of the job">
-    </div>
-  </div>
+   <form class="form-horizontal" action=create_comment.jsp>
 
    <div class="form-group" >
     <label class="control-label col-sm-2" for="email" >Email:</label>
@@ -50,47 +44,31 @@
   </div>
 
   <div class="form-group" >
-    <label class="control-label col-sm-2" for="text" >Company:</label>
+    <label class="control-label col-sm-2" for="text" >Comment:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 50px; width: 400px" id="text"  name="company" placeholder="Enter the job's company">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="comment"  name="comment" placeholder="Enter your comment.">
     </div>
   </div>
 
    <div class="form-group" >
-    <label class="control-label col-sm-2" for="text" >City:</label>
+    <label class="control-label col-sm-2" for="text" >Rating :</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height:50px; width: 400px" id="city"  name="city" placeholder="Enter the job's city">
+      <input type="number" value="0" min="0" max="5" class="form-control" style="height: 50px; width: 400px" id="rating"  name="rating" placeholder="between 0 and 5">
     </div>
   </div>
 
-   <div class="form-group" >
-    <label class="control-label col-sm-2" for="email" >Salary(<0)</label>
-    <div class="col-sm-10">
-      <input type="salary" class="form-control" id="salary"  style="height:50px; width: 400px" name="salary" placeholder="Enter the job's salary">
-    </div>
-  </div>
+
 
    <div class="form-group" >
-    <label class="control-label col-sm-2" for="email" >Description:</label>
+    <label class="control-label col-sm-2" for="text" >place :</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 50px; width: 400px" id="description"  name="description" placeholder="Enter the job's description">
-    </div>
-  </div>
-
-<form method="post" action="/action_page_post.php">
-  <input type="range" id="points" style="height: 50px;width: 200px" value="50" min="0" max="100">
-</form>
-
-   <div class="form-group" >
-    <label class="control-label col-sm-2" for="email" >URL's pic :</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" style="height: 50px; width: 400px" id="img"  name="img" placeholder="URL of your pic's company">
+      <input type="text" class="form-control" style="height: 50px; width: 400px" id="place"  name="place" placeholder="where ?">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" style="float: left;" >Propose a job</button>
+      <button type="submit" class="btn btn-default" style="float: left;" >Comment</button>
     </div>
   </div>
 </form> 

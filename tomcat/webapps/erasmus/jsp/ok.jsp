@@ -77,7 +77,7 @@
 
    <tr>
        <td><button style="background-color: #E22AEF;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='share.jsp'" >Share your Erasmus Project</button></td>
-       <td><button style="background-color: #F80830;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='note_city.jsp'" >Note a City/Country</button></td>
+       <td><button style="background-color: #F80830;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='note_city.jsp'" >Comment a place</button></td>
        <td><button style="background-color: #0ED50E;height: 220px;width:270px" type="button" class="btn btn-lg btn-primary" onclick="self.location.href='propose_job.jsp'" >Propose a job</button></td>
    </tr>
 </table>
